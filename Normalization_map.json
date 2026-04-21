@@ -1,0 +1,137 @@
+{
+"version": "1.0.0",
+"last_updated": "2026-04-21",
+
+"normalization": {
+"strategy": "alias_and_keyword_matching",
+
+"confidence_thresholds": {
+"high": 0.85,
+"medium": 0.6,
+"low": 0.4
+},
+
+"rules": {
+"exact_alias_match": 1.0,
+"partial_alias_match": 0.85,
+"keyword_match": 0.7,
+"fallback_category_match": 0.5
+}
+},
+
+"common_mappings": [
+{
+"input_variants": ["take out trash", "take bins out", "trash run"],
+"canonical_chore_id": "home_take_out_trash"
+},
+{
+"input_variants": ["clean cat box", "scoop litter", "clean litter"],
+"canonical_chore_id": "pet_clean_litter_box"
+},
+{
+"input_variants": ["rake leaves", "leaf cleanup"],
+"canonical_chore_id": "yard_rake_leaves"
+},
+{
+"input_variants": ["shovel snow", "clear snow"],
+"canonical_chore_id": "yard_shovel_snow"
+},
+{
+"input_variants": ["get oil changed", "oil change"],
+"canonical_chore_id": "vehicle_oil_change"
+},
+{
+"input_variants": ["fix brakes", "brake job", "replace brakes"],
+"canonical_chore_id": "vehicle_brake_service"
+},
+{
+"input_variants": ["clean fish tank", "tank cleaning"],
+"canonical_chore_id": "pet_clean_fish_tank"
+},
+{
+"input_variants": ["clean bird cage", "bird cage clean"],
+"canonical_chore_id": "pet_clean_bird_cage"
+},
+{
+"input_variants": ["walk dog", "take dog out"],
+"canonical_chore_id": "pet_walk_dog"
+},
+{
+"input_variants": ["do laundry", "wash clothes"],
+"canonical_chore_id": "laundry_wash"
+},
+{
+"input_variants": ["fold laundry", "fold clothes"],
+"canonical_chore_id": "laundry_fold"
+},
+{
+"input_variants": ["clean bathroom", "scrub bathroom"],
+"canonical_chore_id": "clean_bathroom"
+},
+{
+"input_variants": ["vacuum", "vacuum floors"],
+"canonical_chore_id": "clean_vacuum"
+},
+{
+"input_variants": ["mop floor", "mop floors"],
+"canonical_chore_id": "clean_mop"
+},
+{
+"input_variants": ["paint garage", "garage painting"],
+"canonical_chore_id": "home_paint_garage"
+}
+],
+
+"keyword_groups": [
+{
+"keywords": ["trash", "bins", "garbage"],
+"canonical_chore_id": "home_take_out_trash"
+},
+{
+"keywords": ["litter", "cat", "box"],
+"canonical_chore_id": "pet_clean_litter_box"
+},
+{
+"keywords": ["leaves", "yard"],
+"canonical_chore_id": "yard_rake_leaves"
+},
+{
+"keywords": ["snow", "shovel"],
+"canonical_chore_id": "yard_shovel_snow"
+},
+{
+"keywords": ["brakes", "car"],
+"canonical_chore_id": "vehicle_brake_service"
+},
+{
+"keywords": ["oil", "car"],
+"canonical_chore_id": "vehicle_oil_change"
+},
+{
+"keywords": ["fish", "tank"],
+"canonical_chore_id": "pet_clean_fish_tank"
+},
+{
+"keywords": ["bird", "cage"],
+"canonical_chore_id": "pet_clean_bird_cage"
+},
+{
+"keywords": ["dog", "walk"],
+"canonical_chore_id": "pet_walk_dog"
+},
+{
+"keywords": ["laundry", "wash"],
+"canonical_chore_id": "laundry_wash"
+},
+{
+"keywords": ["fold", "clothes"],
+"canonical_chore_id": "laundry_fold"
+}
+],
+
+"fallback_rules": {
+"use_category_inference": true,
+"allow_custom_task_creation": true,
+"default_confidence": 0.4
+}
+}

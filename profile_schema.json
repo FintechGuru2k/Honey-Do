@@ -1,0 +1,94 @@
+{
+"version": "1.0.0",
+"last_updated": "2026-04-21",
+
+"household_profile": {
+"home": {
+"type": ["apartment", "condo", "townhouse", "single_family"],
+"outdoor_space": ["none", "balcony", "small_yard", "full_yard"],
+"floors": ["1", "2", "3+"],
+"parking": ["street", "driveway", "garage"],
+"location": {
+"zip_code": "string",
+"weather_exposure": ["none", "snow", "rain", "heat"]
+}
+},
+
+"composition": {
+"adults": 2,
+"kids": {
+"count": "number",
+"age_groups": ["0-4", "5-10", "11-17"]
+},
+"pets": {
+"types": ["dog", "cat", "fish", "bird", "other"],
+"count": "number"
+}
+},
+
+"users": [
+{
+"id": "user_1",
+"name": "string",
+"handiness": ["beginner", "intermediate", "advanced"],
+"tool_comfort": ["low", "medium", "high"],
+"diy_preference": ["prefer_diy", "mixed", "prefer_outsource"],
+"availability": [
+"weekday_morning",
+"weekday_evening",
+"weekends",
+"flexible"
+],
+"capacity": ["low", "medium", "high"],
+"reminder_style": ["light", "normal", "aggressive"],
+"preferences": {
+"likes": ["string"],
+"dislikes": ["string"]
+},
+"constraints": [
+"no_heavy_lifting",
+"allergies",
+"time_restricted"
+]
+},
+{
+"id": "user_2",
+"name": "string",
+"handiness": ["beginner", "intermediate", "advanced"],
+"tool_comfort": ["low", "medium", "high"],
+"diy_preference": ["prefer_diy", "mixed", "prefer_outsource"],
+"availability": [
+"weekday_morning",
+"weekday_evening",
+"weekends",
+"flexible"
+],
+"capacity": ["low", "medium", "high"],
+"reminder_style": ["light", "normal", "aggressive"],
+"preferences": {
+"likes": ["string"],
+"dislikes": ["string"]
+},
+"constraints": []
+}
+],
+
+"standards": {
+"cleanliness": ["low", "normal", "high"],
+"clutter_tolerance": ["low", "medium", "high"]
+},
+
+"privacy": {
+"social_mode": ["private", "share_highlights", "full_public"],
+"allow_photo_proof": true,
+"allow_location_tracking": true,
+"allow_recordings": false
+},
+
+"commerce": {
+"product_suggestions": true,
+"service_suggestions": true,
+"email_opt_in": false
+}
+}
+}

@@ -1,0 +1,122 @@
+{
+"version": "1.0.0",
+"last_updated": "2026-04-21",
+
+"household": {
+"id": "household_001",
+"name": "Default Household",
+"created_at": "2026-04-21"
+},
+
+"actors": [
+{
+"id": "user_1",
+"name": "User A",
+"type": "adult",
+"points": 0,
+"streak": 0,
+"tasks_completed": 0,
+"tasks_missed": 0
+},
+{
+"id": "user_2",
+"name": "User B",
+"type": "adult",
+"points": 0,
+"streak": 0,
+"tasks_completed": 0,
+"tasks_missed": 0
+}
+],
+
+"tasks": [
+{
+"id": "task_001",
+"canonical_chore_id": "home_take_out_trash",
+"title": "Take out trash",
+"assigned_to": "user_1",
+"status": "active",
+"tier": 1,
+"due_at": null,
+"created_at": "2026-04-21",
+"completed_at": null,
+"missed_count": 0,
+"proof_required": false,
+"location_id": null,
+"notes": ""
+}
+],
+
+"task_history": [
+{
+"task_id": "task_001",
+"event": "created",
+"timestamp": "2026-04-21"
+}
+],
+
+"reminders": [
+{
+"id": "reminder_001",
+"task_id": "task_001",
+"level": "soft",
+"scheduled_for": "2026-04-21T18:00:00",
+"status": "pending"
+}
+],
+
+"achievements": [
+{
+"id": "streak_5",
+"unlocked": false,
+"unlocked_at": null
+}
+],
+
+"proofs": [
+{
+"id": "proof_001",
+"task_id": "task_001",
+"actor_id": "user_1",
+"type": "photo",
+"trust_score": 0,
+"status": "pending",
+"captured_at": null
+}
+],
+
+"intent_signals": [
+{
+"id": "signal_001",
+"task_id": "task_001",
+"type": "maintenance",
+"confidence": "low",
+"created_at": "2026-04-21"
+}
+],
+
+"service_leads": [
+{
+"id": "lead_001",
+"task_id": "task_001",
+"service_category": "cleaning",
+"intent_type": "optional_outsource",
+"status": "not_triggered"
+}
+],
+
+"fairness": {
+"distribution": {
+"user_1": 0,
+"user_2": 0
+},
+"status": "balanced"
+},
+
+"system_logs": [
+{
+"event": "system_initialized",
+"timestamp": "2026-04-21"
+}
+]
+}

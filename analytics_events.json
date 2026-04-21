@@ -1,0 +1,74 @@
+{
+"version": "1.0.0",
+"last_updated": "2026-04-21",
+
+"event_categories": [
+"task",
+"reminder",
+"proof",
+"behavior",
+"intent",
+"social",
+"monetization",
+"system"
+],
+
+"events": [
+{
+"name": "task_created",
+"category": "task",
+"fields": ["task_id", "canonical_chore_id", "assigned_to"]
+},
+{
+"name": "task_completed",
+"category": "task",
+"fields": ["task_id", "actor_id", "completion_time", "points_awarded"]
+},
+{
+"name": "task_missed",
+"category": "task",
+"fields": ["task_id", "actor_id", "miss_count"]
+},
+{
+"name": "reminder_sent",
+"category": "reminder",
+"fields": ["task_id", "level", "timestamp"]
+},
+{
+"name": "proof_submitted",
+"category": "proof",
+"fields": ["task_id", "actor_id", "trust_score"]
+},
+{
+"name": "intent_generated",
+"category": "intent",
+"fields": ["task_id", "intent_type", "confidence"]
+},
+{
+"name": "service_lead_triggered",
+"category": "monetization",
+"fields": ["task_id", "service_category", "intent_type"]
+},
+{
+"name": "product_suggestion_shown",
+"category": "monetization",
+"fields": ["task_id", "items"]
+},
+{
+"name": "social_post_generated",
+"category": "social",
+"fields": ["event_type"]
+},
+{
+"name": "achievement_unlocked",
+"category": "behavior",
+"fields": ["achievement_id", "actor_id"]
+}
+],
+
+"tracking_rules": {
+"track_all_tasks": true,
+"track_monetization_events": true,
+"track_behavior_patterns": true
+}
+}

@@ -1,0 +1,63 @@
+{
+"version": "1.0.0",
+"last_updated": "2026-04-21",
+
+"output": {
+"task": {
+"task_id": "string",
+"canonical_chore_id": "string",
+"title": "string",
+"assigned_to": "string",
+"tier": "number",
+"points": "number",
+"status": "string"
+},
+
+"advice": {
+"enabled": true,
+"messages": ["string"]
+},
+
+"reminders": {
+"scheduled": true,
+"level": "soft | direct | escalated"
+},
+
+"intent": {
+"intents": [
+{
+"type": "string",
+"confidence": "number",
+"actions": ["string"]
+}
+]
+},
+
+"monetization": {
+"service_leads": [
+{
+"service_category": "string",
+"intent_type": "string"
+}
+],
+"product_suggestions": ["string"]
+},
+
+"proof": {
+"required": "boolean",
+"mode": "none | standard | enhanced"
+},
+
+"social": {
+"eligible": "boolean",
+"trigger": "string"
+},
+
+"analytics_events": [
+{
+"event_name": "string",
+"payload": {}
+}
+]
+}
+}

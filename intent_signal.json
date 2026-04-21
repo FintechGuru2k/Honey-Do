@@ -1,0 +1,161 @@
+{
+"version": "2.0.0",
+"last_updated": "2026-04-21",
+
+"global_settings": {
+"max_intents_per_task": 4,
+"default_confidence": 0.5,
+"decay_enabled": true,
+"decay_days": 14,
+"min_confidence_threshold": 0.4
+},
+
+"intent_definitions": [
+{
+"type": "home_improvement",
+"category": "home",
+"base_confidence": 0.7,
+"value_band": "high",
+"default_time_horizon": "near_term",
+"actions": ["show_products", "show_services", "email_followup"]
+},
+{
+"type": "urgent_repair",
+"category": "vehicle",
+"base_confidence": 0.9,
+"value_band": "high",
+"default_time_horizon": "immediate",
+"actions": ["local_service_search", "priority_notification"]
+},
+{
+"type": "maintenance",
+"category": "general",
+"base_confidence": 0.6,
+"value_band": "medium",
+"default_time_horizon": "near_term",
+"actions": ["reminder_boost", "optional_products"]
+},
+{
+"type": "product_purchase",
+"category": "commerce",
+"base_confidence": 0.75,
+"value_band": "medium",
+"default_time_horizon": "immediate",
+"actions": ["affiliate_products"]
+},
+{
+"type": "contractor_consideration",
+"category": "services",
+"base_confidence": 0.65,
+"value_band": "high",
+"default_time_horizon": "near_term",
+"actions": ["local_service_search", "estimate_prompt"]
+}
+],
+
+"chore_intent_mapping": [
+{
+"canonical_chore_id": "home_paint_garage",
+"intents": [
+{
+"type": "home_improvement",
+"confidence": 0.9
+},
+{
+"type": "product_purchase",
+"confidence": 0.85,
+"items": ["paint", "rollers", "tape"]
+},
+{
+"type": "contractor_consideration",
+"confidence": 0.6
+}
+]
+},
+{
+"canonical_chore_id": "vehicle_brake_service",
+"intents": [
+{
+"type": "urgent_repair",
+"confidence": 0.95
+},
+{
+"type": "contractor_consideration",
+"confidence": 0.85
+}
+]
+},
+{
+"canonical_chore_id": "pet_clean_litter_box",
+"intents": [
+{
+"type": "maintenance",
+"confidence": 0.7
+},
+{
+"type": "product_purchase",
+"confidence": 0.6,
+"items": ["litter", "liners"]
+}
+]
+}
+],
+
+"behavior_modifiers": {
+"repeat_delay": {
+"confidence_boost": 0.1,
+"add_intent": "contractor_consideration"
+},
+"task_missed_multiple": {
+"confidence_boost": 0.15,
+"force_intent": "urgent_repair"
+},
+"low_diy_confidence": {
+"confidence_boost": 0.1,
+"add_intent": "contractor_consideration"
+},
+"high_skill_user": {
+"confidence_reduction": 0.1,
+"reduce_intent": "contractor_consideration"
+}
+},
+
+"time_decay": {
+"enabled": true,
+"decay_curve": "linear",
+"max_days": 14,
+"decay_factor": 0.05
+},
+
+"fallback_logic": {
+"use_category_mapping": true,
+"default_intent": "maintenance"
+},
+
+"action_dispatch": {
+"show_products": {
+"channel": "in_app",
+"priority": "medium"
+},
+"show_services": {
+"channel": "in_app",
+"priority": "high"
+},
+"local_service_search": {
+"channel": "external",
+"priority": "high"
+},
+"affiliate_products": {
+"channel": "affiliate",
+"priority": "medium"
+},
+"email_followup": {
+"channel": "email",
+"priority": "low"
+},
+"priority_notification": {
+"channel": "push",
+"priority": "high"
+}
+}
+}

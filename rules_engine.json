@@ -1,0 +1,229 @@
+{
+"version": "2.0.0",
+"last_updated": "2026-04-21",
+
+"tier_system": {
+"tiers": {
+"1": { "label": "micro", "points": 5 },
+"2": { "label": "maintenance", "points": 10 },
+"3": { "label": "heavy", "points": 20 },
+"4": { "label": "project", "points": 40 }
+}
+},
+
+"scoring_engine": {
+"enabled": true,
+"points_by_tier": { "1": 5, "2": 10, "3": 20, "4": 40 },
+"streaks": {
+"enabled": true,
+"increment_on_completion": true,
+"reset_on_miss": true
+},
+"fairness": {
+"enabled": true,
+"imbalance_threshold_percent": 60,
+"balanced_range": { "min": 45, "max": 55 },
+"weighting": {
+"tier_multiplier": true,
+"frequency_weighting": true
+}
+}
+},
+
+"reminder_engine": {
+"enabled": true,
+"levels": ["soft", "direct", "escalated"],
+"timing_rules": {
+"soft": "before_due",
+"direct": "at_due",
+"escalated": "after_missed_2x"
+},
+"behavior_adjustment": {
+"increase_frequency_if_missed": true,
+"decrease_if_consistent": true
+}
+},
+
+"advice_engine": {
+"enabled": true,
+"trigger_conditions": [
+"tier >= 2",
+"high_friction",
+"time_sensitive",
+"repeat_delay"
+],
+"limits": {
+"max_tasks_with_advice": 3,
+"max_lines_per_task": 2
+},
+"types": [
+"execution_tip",
+"timing_tip",
+"implication_warning"
+]
+},
+
+"diy_decision_engine": {
+"enabled": true,
+"factors": [
+"user_skill_level",
+"task_risk_level",
+"tool_requirement",
+"task_complexity"
+],
+"rules": {
+"low_skill_high_risk": "outsource",
+"high_skill_low_risk": "diy",
+"medium": "mixed"
+}
+},
+
+"business_lead_engine": {
+"enabled": true,
+"trigger_conditions": [
+"tier >= 3",
+"repeat_delay",
+"high_friction",
+"low_diy_confidence",
+"user_requests_help"
+],
+"lead_scoring": {
+"urgency": ["low", "medium", "high"],
+"value_band": ["low", "medium", "high"],
+"conversion_probability": ["low", "medium", "high"]
+},
+"intent_types": [
+"urgent_repair",
+"maintenance",
+"home_improvement",
+"optional_outsource"
+]
+},
+
+"how_to_engine": {
+"enabled": true,
+"trigger_tiers": [2, 3, 4],
+"query_templates": {
+"google": "how to {task} step by step",
+"youtube": "{task} tutorial beginner"
+}
+},
+
+"targeting_engine": {
+"enabled": true,
+"channels": [
+"product_suggestions",
+"service_ads",
+"email_campaigns"
+],
+"time_horizons": [
+"immediate",
+"near_term",
+"future"
+],
+"trigger_rules": [
+"high_purchase_intent",
+"repeat_behavior",
+"project_start"
+]
+},
+
+"social_engine": {
+"enabled": true,
+"trigger_events": [
+"achievement_unlocked",
+"tier_3_completed",
+"tier_4_completed",
+"weekly_winner",
+"balanced_week"
+],
+"constraints": {
+"max_caption_words": 20,
+"tone": "playful_competitive",
+"exclude": [
+"private_tasks",
+"kid_competitive_content"
+]
+}
+},
+
+"achievement_engine": {
+"enabled": true,
+"definitions": [
+{ "id": "streak_5", "trigger": "5_day_streak" },
+{ "id": "streak_10", "trigger": "10_day_streak" },
+{ "id": "heavy_lifter", "trigger": "tier_3_completion" },
+{ "id": "project_finisher", "trigger": "tier_4_completion" },
+{ "id": "balanced_week", "trigger": "balanced_workload" }
+]
+},
+
+"proof_engine": {
+"enabled": true,
+"modes": ["none", "standard", "enhanced", "challenge"],
+"rules": {
+"tier_1": "none",
+"tier_2": "optional",
+"tier_3": "recommended",
+"tier_4": "enhanced"
+},
+"trust_scoring": {
+"live_capture": 20,
+"location_match": 20,
+"time_window": 15,
+"before_after": 15,
+"device_integrity": 10,
+"challenge_passed": 20,
+"penalties": {
+"metadata_mismatch": -30,
+"suspicious_device": -20
+}
+}
+},
+
+"location_engine": {
+"enabled": true,
+"features": [
+"geofence_triggers",
+"location_required_tasks",
+"proximity_reminders"
+]
+},
+
+"systemization_engine": {
+"enabled": true,
+"rules": {
+"repeat_threshold": 2,
+"convert_to_recurring": true,
+"allow_rotation": true
+}
+},
+
+"behavior_engine": {
+"enabled": true,
+"detect": [
+"repeated_misses",
+"workload_imbalance",
+"low_engagement",
+"task_avoidance"
+],
+"actions": [
+"reassign_task",
+"increase_reminders",
+"suggest_outsource",
+"trigger_intervention"
+]
+},
+
+"privacy_rules": {
+"no_social_if": [
+"task.privacy == private"
+],
+"no_kid_competition": true,
+"sensitive_categories": [
+"kids",
+"health",
+"finance"
+]
+}
+}
