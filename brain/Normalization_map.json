@@ -25,7 +25,7 @@
 "canonical_chore_id": "home_take_out_trash"
 },
 {
-"input_variants": ["clean cat box", "scoop litter", "clean litter"],
+"input_variants": ["clean cat box", "scoop litter", "clean litter", "clean litter box"],
 "canonical_chore_id": "pet_clean_litter_box"
 },
 {
