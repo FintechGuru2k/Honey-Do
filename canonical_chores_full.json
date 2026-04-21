@@ -1,0 +1,7084 @@
+{
+  "registry_version": "1.0.0",
+  "generated_on": "2026-04-21",
+  "description": "Canonical chore registry for Honey-Do household operating system. Seeded with hard-coded chores across major household domains.",
+  "total_chores": 301,
+  "categories": [
+    "admin",
+    "cleaning",
+    "errands",
+    "exterior",
+    "home",
+    "hosting",
+    "kid",
+    "kitchen",
+    "laundry",
+    "pet",
+    "safety",
+    "shopping",
+    "vehicle"
+  ],
+  "frequencies": [
+    "daily",
+    "several_times_weekly",
+    "weekly",
+    "biweekly",
+    "monthly",
+    "quarterly",
+    "seasonal",
+    "annual",
+    "rare",
+    "as_needed"
+  ],
+  "chores": [
+    {
+      "id": "home_make_bed",
+      "name": "Make bed",
+      "category": "home",
+      "subcategory": "daily_reset",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "daily",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "bedroom",
+        "reset"
+      ],
+      "aliases": [
+        "make the bed"
+      ]
+    },
+    {
+      "id": "home_open_blinds",
+      "name": "Open blinds and curtains",
+      "category": "home",
+      "subcategory": "daily_reset",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "daily",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "morning",
+        "light"
+      ],
+      "aliases": [
+        "open curtains"
+      ]
+    },
+    {
+      "id": "home_close_blinds",
+      "name": "Close blinds and curtains",
+      "category": "home",
+      "subcategory": "daily_reset",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "daily",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "evening",
+        "privacy"
+      ],
+      "aliases": [
+        "close curtains"
+      ]
+    },
+    {
+      "id": "home_pick_up_clutter",
+      "name": "Pick up general clutter",
+      "category": "home",
+      "subcategory": "tidying",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "daily",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "clutter",
+        "reset"
+      ],
+      "aliases": [
+        "tidy up"
+      ]
+    },
+    {
+      "id": "home_put_items_back",
+      "name": "Put misplaced items back",
+      "category": "home",
+      "subcategory": "tidying",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "daily",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "organization"
+      ],
+      "aliases": [
+        "put things away"
+      ]
+    },
+    {
+      "id": "home_empty_small_trash",
+      "name": "Empty small room trash cans",
+      "category": "home",
+      "subcategory": "trash",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "weekly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "trash",
+        "bins"
+      ],
+      "aliases": [
+        "empty bedroom trash"
+      ]
+    },
+    {
+      "id": "home_take_out_trash",
+      "name": "Take out kitchen trash",
+      "category": "home",
+      "subcategory": "trash",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 2,
+      "frequency": "several_times_weekly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "trash",
+        "kitchen"
+      ],
+      "aliases": [
+        "take out trash"
+      ]
+    },
+    {
+      "id": "home_take_out_recycling",
+      "name": "Take out recycling",
+      "category": "home",
+      "subcategory": "trash",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "weekly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "recycling"
+      ],
+      "aliases": [
+        "take out recycle"
+      ]
+    },
+    {
+      "id": "home_put_bins_out",
+      "name": "Put bins out for pickup",
+      "category": "home",
+      "subcategory": "trash",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "weekly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "trash day",
+        "curb"
+      ],
+      "aliases": [
+        "put garbage out"
+      ]
+    },
+    {
+      "id": "home_bring_bins_in",
+      "name": "Bring bins in after pickup",
+      "category": "home",
+      "subcategory": "trash",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "weekly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "trash day",
+        "curb"
+      ],
+      "aliases": [
+        "bring garbage bins in"
+      ]
+    },
+    {
+      "id": "home_sort_mail",
+      "name": "Sort mail",
+      "category": "home",
+      "subcategory": "paperwork",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "several_times_weekly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "mail"
+      ],
+      "aliases": [
+        "go through mail"
+      ]
+    },
+    {
+      "id": "home_break_down_boxes",
+      "name": "Break down cardboard boxes",
+      "category": "home",
+      "subcategory": "trash",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "as_needed",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "boxes",
+        "recycling"
+      ],
+      "aliases": [
+        "flatten boxes"
+      ]
+    },
+    {
+      "id": "home_light_bulb_replace",
+      "name": "Replace light bulb",
+      "category": "home",
+      "subcategory": "minor_fix",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "as_needed",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "light",
+        "bulb"
+      ],
+      "aliases": [
+        "change light bulb"
+      ]
+    },
+    {
+      "id": "home_refill_soap",
+      "name": "Refill hand soap",
+      "category": "home",
+      "subcategory": "supplies",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "as_needed",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "soap",
+        "bathroom"
+      ],
+      "aliases": [
+        "top off soap"
+      ]
+    },
+    {
+      "id": "home_refill_toilet_paper",
+      "name": "Restock toilet paper",
+      "category": "home",
+      "subcategory": "supplies",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "several_times_weekly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "bathroom",
+        "tp"
+      ],
+      "aliases": [
+        "replace toilet paper"
+      ]
+    },
+    {
+      "id": "home_refill_paper_towels",
+      "name": "Restock paper towels",
+      "category": "home",
+      "subcategory": "supplies",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "weekly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "kitchen",
+        "paper towels"
+      ],
+      "aliases": [
+        "replace paper towels"
+      ]
+    },
+    {
+      "id": "home_wipe_entryway",
+      "name": "Wipe entryway surfaces",
+      "category": "home",
+      "subcategory": "light_cleaning",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "weekly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "entryway"
+      ],
+      "aliases": [
+        "clean entry table"
+      ]
+    },
+    {
+      "id": "home_sweep_entryway",
+      "name": "Sweep entryway",
+      "category": "home",
+      "subcategory": "light_cleaning",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "weekly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "entryway",
+        "floor"
+      ],
+      "aliases": [
+        "sweep foyer"
+      ]
+    },
+    {
+      "id": "home_clean_mirror_quick",
+      "name": "Wipe mirrors quickly",
+      "category": "home",
+      "subcategory": "light_cleaning",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "weekly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "mirror"
+      ],
+      "aliases": [
+        "clean mirror"
+      ]
+    },
+    {
+      "id": "home_spot_mop_floor",
+      "name": "Spot mop floor spill",
+      "category": "home",
+      "subcategory": "light_cleaning",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "as_needed",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "mop",
+        "spill"
+      ],
+      "aliases": [
+        "mop spill"
+      ]
+    },
+    {
+      "id": "home_vacuum_common_areas",
+      "name": "Vacuum common areas",
+      "category": "home",
+      "subcategory": "routine_cleaning",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "weekly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "vacuum",
+        "living room"
+      ],
+      "aliases": [
+        "vacuum downstairs"
+      ]
+    },
+    {
+      "id": "home_mop_common_areas",
+      "name": "Mop common areas",
+      "category": "home",
+      "subcategory": "routine_cleaning",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "weekly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "mop",
+        "floors"
+      ],
+      "aliases": [
+        "mop downstairs"
+      ]
+    },
+    {
+      "id": "home_dust_surfaces",
+      "name": "Dust surfaces",
+      "category": "home",
+      "subcategory": "routine_cleaning",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "weekly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "dusting"
+      ],
+      "aliases": [
+        "dust shelves"
+      ]
+    },
+    {
+      "id": "home_clean_baseboards_one_room",
+      "name": "Clean baseboards in one room",
+      "category": "home",
+      "subcategory": "routine_cleaning",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "monthly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "baseboards"
+      ],
+      "aliases": [
+        "wipe baseboards"
+      ]
+    },
+    {
+      "id": "home_clean_windows_inside",
+      "name": "Clean windows inside",
+      "category": "home",
+      "subcategory": "routine_cleaning",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "monthly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "windows"
+      ],
+      "aliases": [
+        "wash windows inside"
+      ]
+    },
+    {
+      "id": "home_change_air_filter",
+      "name": "Change HVAC air filter",
+      "category": "home",
+      "subcategory": "maintenance",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "quarterly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "hvac",
+      "lead_intent": "preventive_maintenance",
+      "tags": [
+        "hvac",
+        "filter"
+      ],
+      "aliases": [
+        "replace air filter"
+      ]
+    },
+    {
+      "id": "home_test_smoke_detectors",
+      "name": "Test smoke detectors",
+      "category": "home",
+      "subcategory": "safety",
+      "default_tier": 2,
+      "effort": 1,
+      "friction": 2,
+      "frequency": "monthly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "smoke detector",
+        "safety"
+      ],
+      "aliases": [
+        "test alarms"
+      ]
+    },
+    {
+      "id": "home_replace_detector_batteries",
+      "name": "Replace smoke detector batteries",
+      "category": "home",
+      "subcategory": "safety",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "biweekly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "batteries",
+        "safety"
+      ],
+      "aliases": [
+        "change alarm batteries"
+      ]
+    },
+    {
+      "id": "home_unclog_drain_minor",
+      "name": "Unclog minor drain backup",
+      "category": "home",
+      "subcategory": "minor_fix",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "as_needed",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "plumbing",
+      "lead_intent": "maintenance",
+      "tags": [
+        "drain",
+        "sink"
+      ],
+      "aliases": [
+        "clear drain"
+      ]
+    },
+    {
+      "id": "home_reset_breaker",
+      "name": "Reset breaker",
+      "category": "home",
+      "subcategory": "minor_fix",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "as_needed",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "electrical",
+        "breaker"
+      ],
+      "aliases": [
+        "flip breaker"
+      ]
+    },
+    {
+      "id": "home_tighten_handle",
+      "name": "Tighten loose handle or knob",
+      "category": "home",
+      "subcategory": "minor_fix",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "as_needed",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "hardware"
+      ],
+      "aliases": [
+        "tighten knob"
+      ]
+    },
+    {
+      "id": "home_patch_wall_scuff",
+      "name": "Patch wall scuff or small hole",
+      "category": "home",
+      "subcategory": "minor_fix",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "as_needed",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "handyman",
+      "lead_intent": "maintenance",
+      "tags": [
+        "wall",
+        "patch"
+      ],
+      "aliases": [
+        "spackle wall"
+      ]
+    },
+    {
+      "id": "home_fix_running_toilet",
+      "name": "Fix running toilet",
+      "category": "home",
+      "subcategory": "repair",
+      "default_tier": 3,
+      "effort": 3,
+      "friction": 3,
+      "frequency": "as_needed",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "mixed",
+      "service_category": "plumbing",
+      "lead_intent": "urgent_repair",
+      "tags": [
+        "toilet",
+        "plumbing"
+      ],
+      "aliases": [
+        "repair toilet"
+      ]
+    },
+    {
+      "id": "home_caulk_bathroom",
+      "name": "Re-caulk bathroom",
+      "category": "home",
+      "subcategory": "repair",
+      "default_tier": 3,
+      "effort": 3,
+      "friction": 3,
+      "frequency": "rare",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "mixed",
+      "service_category": "handyman",
+      "lead_intent": "maintenance",
+      "tags": [
+        "caulk",
+        "bathroom"
+      ],
+      "aliases": [
+        "redo caulk"
+      ]
+    },
+    {
+      "id": "home_paint_room",
+      "name": "Paint a room",
+      "category": "home",
+      "subcategory": "improvement",
+      "default_tier": 4,
+      "effort": 4,
+      "friction": 3,
+      "frequency": "rare",
+      "proof_eligible": true,
+      "social_eligible": true,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "mixed",
+      "service_category": "painting",
+      "lead_intent": "home_improvement",
+      "tags": [
+        "paint",
+        "room"
+      ],
+      "aliases": [
+        "room painting"
+      ]
+    },
+    {
+      "id": "home_paint_garage",
+      "name": "Paint garage",
+      "category": "home",
+      "subcategory": "improvement",
+      "default_tier": 4,
+      "effort": 4,
+      "friction": 3,
+      "frequency": "rare",
+      "proof_eligible": true,
+      "social_eligible": true,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "mixed",
+      "service_category": "painting",
+      "lead_intent": "home_improvement",
+      "tags": [
+        "paint",
+        "garage"
+      ],
+      "aliases": [
+        "garage painting"
+      ]
+    },
+    {
+      "id": "home_assemble_furniture",
+      "name": "Assemble furniture",
+      "category": "home",
+      "subcategory": "improvement",
+      "default_tier": 3,
+      "effort": 3,
+      "friction": 2,
+      "frequency": "as_needed",
+      "proof_eligible": true,
+      "social_eligible": true,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "mixed",
+      "service_category": "handyman",
+      "lead_intent": "home_improvement",
+      "tags": [
+        "furniture",
+        "assembly"
+      ],
+      "aliases": [
+        "build furniture"
+      ]
+    },
+    {
+      "id": "home_install_shelving",
+      "name": "Install shelving",
+      "category": "home",
+      "subcategory": "improvement",
+      "default_tier": 4,
+      "effort": 4,
+      "friction": 3,
+      "frequency": "rare",
+      "proof_eligible": true,
+      "social_eligible": true,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "mixed",
+      "service_category": "handyman",
+      "lead_intent": "home_improvement",
+      "tags": [
+        "shelves",
+        "drill"
+      ],
+      "aliases": [
+        "put up shelves"
+      ]
+    },
+    {
+      "id": "home_mount_tv",
+      "name": "Mount TV",
+      "category": "home",
+      "subcategory": "improvement",
+      "default_tier": 3,
+      "effort": 3,
+      "friction": 3,
+      "frequency": "rare",
+      "proof_eligible": true,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "no",
+      "service_category": "handyman",
+      "lead_intent": "home_improvement",
+      "tags": [
+        "tv",
+        "mount"
+      ],
+      "aliases": [
+        "hang tv"
+      ]
+    },
+    {
+      "id": "home_deep_clean_garage",
+      "name": "Deep clean garage",
+      "category": "home",
+      "subcategory": "deep_cleaning",
+      "default_tier": 3,
+      "effort": 3,
+      "friction": 3,
+      "frequency": "quarterly",
+      "proof_eligible": true,
+      "social_eligible": true,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "junk_removal",
+      "lead_intent": "maintenance",
+      "tags": [
+        "garage",
+        "declutter"
+      ],
+      "aliases": [
+        "garage cleanup"
+      ]
+    },
+    {
+      "id": "home_full_room_reorganization",
+      "name": "Reorganize full room",
+      "category": "home",
+      "subcategory": "organization",
+      "default_tier": 4,
+      "effort": 4,
+      "friction": 2,
+      "frequency": "rare",
+      "proof_eligible": true,
+      "social_eligible": true,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "organizer",
+      "lead_intent": "home_improvement",
+      "tags": [
+        "organize",
+        "room"
+      ],
+      "aliases": [
+        "room reset"
+      ]
+    },
+    {
+      "id": "kitchen_load_dishwasher",
+      "name": "Load dishwasher",
+      "category": "kitchen",
+      "subcategory": "dishes",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "daily",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "dishwasher",
+        "dishes"
+      ],
+      "aliases": [
+        "put dishes in dishwasher"
+      ]
+    },
+    {
+      "id": "kitchen_unload_dishwasher",
+      "name": "Unload dishwasher",
+      "category": "kitchen",
+      "subcategory": "dishes",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "daily",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "dishwasher",
+        "dishes"
+      ],
+      "aliases": [
+        "empty dishwasher"
+      ]
+    },
+    {
+      "id": "kitchen_hand_wash_dishes",
+      "name": "Hand wash dishes",
+      "category": "kitchen",
+      "subcategory": "dishes",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 2,
+      "frequency": "daily",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "dishes",
+        "sink"
+      ],
+      "aliases": [
+        "do dishes"
+      ]
+    },
+    {
+      "id": "kitchen_wipe_counters",
+      "name": "Wipe kitchen counters",
+      "category": "kitchen",
+      "subcategory": "surfaces",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "daily",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "counters",
+        "kitchen"
+      ],
+      "aliases": [
+        "wipe counters"
+      ]
+    },
+    {
+      "id": "kitchen_clean_stovetop_quick",
+      "name": "Quick clean stovetop",
+      "category": "kitchen",
+      "subcategory": "surfaces",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "daily",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "stove"
+      ],
+      "aliases": [
+        "wipe stove"
+      ]
+    },
+    {
+      "id": "kitchen_empty_sink_strainer",
+      "name": "Empty sink strainer",
+      "category": "kitchen",
+      "subcategory": "light_cleaning",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "daily",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "sink",
+        "strainer"
+      ],
+      "aliases": [
+        "clear sink trap"
+      ]
+    },
+    {
+      "id": "kitchen_put_food_away",
+      "name": "Put groceries or leftovers away",
+      "category": "kitchen",
+      "subcategory": "organization",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "daily",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "food",
+        "fridge"
+      ],
+      "aliases": [
+        "store food"
+      ]
+    },
+    {
+      "id": "kitchen_pack_lunch",
+      "name": "Pack lunch",
+      "category": "kitchen",
+      "subcategory": "meal_prep",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "daily",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "lunch"
+      ],
+      "aliases": [
+        "make lunch"
+      ]
+    },
+    {
+      "id": "kitchen_make_coffee_setup",
+      "name": "Set up coffee for morning",
+      "category": "kitchen",
+      "subcategory": "meal_prep",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "daily",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "coffee"
+      ],
+      "aliases": [
+        "prep coffee"
+      ]
+    },
+    {
+      "id": "kitchen_take_inventory_quick",
+      "name": "Quick fridge inventory check",
+      "category": "kitchen",
+      "subcategory": "inventory",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "weekly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "fridge",
+        "inventory"
+      ],
+      "aliases": [
+        "check fridge"
+      ]
+    },
+    {
+      "id": "kitchen_grocery_run",
+      "name": "Grocery run",
+      "category": "kitchen",
+      "subcategory": "shopping",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "weekly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "grocery",
+      "lead_intent": "purchase_intent",
+      "tags": [
+        "groceries",
+        "shopping"
+      ],
+      "aliases": [
+        "buy groceries"
+      ]
+    },
+    {
+      "id": "kitchen_meal_plan_week",
+      "name": "Plan meals for the week",
+      "category": "kitchen",
+      "subcategory": "planning",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "weekly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "grocery",
+      "lead_intent": "purchase_intent",
+      "tags": [
+        "meal planning"
+      ],
+      "aliases": [
+        "plan meals"
+      ]
+    },
+    {
+      "id": "kitchen_prep_ingredients",
+      "name": "Prep ingredients for the week",
+      "category": "kitchen",
+      "subcategory": "meal_prep",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "weekly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "meal prep"
+      ],
+      "aliases": [
+        "food prep"
+      ]
+    },
+    {
+      "id": "kitchen_clean_microwave",
+      "name": "Clean microwave",
+      "category": "kitchen",
+      "subcategory": "routine_cleaning",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "weekly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "microwave"
+      ],
+      "aliases": [
+        "wipe microwave"
+      ]
+    },
+    {
+      "id": "kitchen_clean_fridge_shelves_light",
+      "name": "Light clean fridge shelves",
+      "category": "kitchen",
+      "subcategory": "routine_cleaning",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "monthly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "fridge",
+        "shelves"
+      ],
+      "aliases": [
+        "clean fridge"
+      ]
+    },
+    {
+      "id": "kitchen_check_expired_food",
+      "name": "Check for expired food",
+      "category": "kitchen",
+      "subcategory": "inventory",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "weekly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "expired",
+        "food"
+      ],
+      "aliases": [
+        "remove expired food"
+      ]
+    },
+    {
+      "id": "kitchen_clean_oven",
+      "name": "Clean oven",
+      "category": "kitchen",
+      "subcategory": "deep_cleaning",
+      "default_tier": 3,
+      "effort": 3,
+      "friction": 3,
+      "frequency": "quarterly",
+      "proof_eligible": true,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "mixed",
+      "service_category": "cleaning",
+      "lead_intent": "maintenance",
+      "tags": [
+        "oven"
+      ],
+      "aliases": [
+        "deep clean oven"
+      ]
+    },
+    {
+      "id": "kitchen_deep_clean_fridge",
+      "name": "Deep clean fridge",
+      "category": "kitchen",
+      "subcategory": "deep_cleaning",
+      "default_tier": 3,
+      "effort": 3,
+      "friction": 3,
+      "frequency": "quarterly",
+      "proof_eligible": true,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "fridge",
+        "deep clean"
+      ],
+      "aliases": [
+        "clean out fridge"
+      ]
+    },
+    {
+      "id": "kitchen_clean_garbage_disposal",
+      "name": "Clean garbage disposal",
+      "category": "kitchen",
+      "subcategory": "maintenance",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "monthly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "plumbing",
+      "lead_intent": "maintenance",
+      "tags": [
+        "garbage disposal"
+      ],
+      "aliases": [
+        "freshen disposal"
+      ]
+    },
+    {
+      "id": "kitchen_organize_pantry",
+      "name": "Organize pantry",
+      "category": "kitchen",
+      "subcategory": "organization",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "monthly",
+      "proof_eligible": true,
+      "social_eligible": true,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "organizer",
+      "lead_intent": "home_improvement",
+      "tags": [
+        "pantry"
+      ],
+      "aliases": [
+        "pantry reset"
+      ]
+    },
+    {
+      "id": "kitchen_restock_staples",
+      "name": "Restock kitchen staples",
+      "category": "kitchen",
+      "subcategory": "shopping",
+      "default_tier": 2,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "weekly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "grocery",
+      "lead_intent": "purchase_intent",
+      "tags": [
+        "staples"
+      ],
+      "aliases": [
+        "buy basics"
+      ]
+    },
+    {
+      "id": "kitchen_batch_cook",
+      "name": "Batch cook for the week",
+      "category": "kitchen",
+      "subcategory": "meal_prep",
+      "default_tier": 3,
+      "effort": 3,
+      "friction": 2,
+      "frequency": "weekly",
+      "proof_eligible": false,
+      "social_eligible": true,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "batch cooking"
+      ],
+      "aliases": [
+        "meal prep cook"
+      ]
+    },
+    {
+      "id": "kitchen_hosting_food_prep",
+      "name": "Prepare food for guests",
+      "category": "kitchen",
+      "subcategory": "hosting",
+      "default_tier": 3,
+      "effort": 3,
+      "friction": 2,
+      "frequency": "as_needed",
+      "proof_eligible": true,
+      "social_eligible": true,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "grocery",
+      "lead_intent": "purchase_intent",
+      "tags": [
+        "hosting",
+        "party"
+      ],
+      "aliases": [
+        "party food prep"
+      ]
+    },
+    {
+      "id": "kitchen_deep_clean_dishwasher",
+      "name": "Deep clean dishwasher",
+      "category": "kitchen",
+      "subcategory": "maintenance",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "monthly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "dishwasher"
+      ],
+      "aliases": [
+        "clean dishwasher"
+      ]
+    },
+    {
+      "id": "kitchen_clean_range_hood",
+      "name": "Clean range hood and filter",
+      "category": "kitchen",
+      "subcategory": "deep_cleaning",
+      "default_tier": 3,
+      "effort": 3,
+      "friction": 3,
+      "frequency": "quarterly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "mixed",
+      "service_category": "cleaning",
+      "lead_intent": "maintenance",
+      "tags": [
+        "range hood"
+      ],
+      "aliases": [
+        "clean hood filter"
+      ]
+    },
+    {
+      "id": "laundry_sort_clothes",
+      "name": "Sort laundry",
+      "category": "laundry",
+      "subcategory": "wash_cycle",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "several_times_weekly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "laundry",
+        "sort"
+      ],
+      "aliases": [
+        "separate clothes"
+      ]
+    },
+    {
+      "id": "laundry_start_load",
+      "name": "Start laundry load",
+      "category": "laundry",
+      "subcategory": "wash_cycle",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "several_times_weekly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "laundry",
+        "washer"
+      ],
+      "aliases": [
+        "run laundry"
+      ]
+    },
+    {
+      "id": "laundry_move_to_dryer",
+      "name": "Move laundry to dryer",
+      "category": "laundry",
+      "subcategory": "wash_cycle",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "several_times_weekly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "dryer"
+      ],
+      "aliases": [
+        "switch laundry"
+      ]
+    },
+    {
+      "id": "laundry_fold_clothes",
+      "name": "Fold laundry",
+      "category": "laundry",
+      "subcategory": "folding",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 2,
+      "frequency": "several_times_weekly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "folding"
+      ],
+      "aliases": [
+        "fold clothes"
+      ]
+    },
+    {
+      "id": "laundry_put_away_clothes",
+      "name": "Put away folded clothes",
+      "category": "laundry",
+      "subcategory": "folding",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 2,
+      "frequency": "several_times_weekly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "put away laundry"
+      ],
+      "aliases": [
+        "put clothes away"
+      ]
+    },
+    {
+      "id": "laundry_hang_delicates",
+      "name": "Hang delicates or air-dry items",
+      "category": "laundry",
+      "subcategory": "special_care",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "weekly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "delicates"
+      ],
+      "aliases": [
+        "hang dry clothes"
+      ]
+    },
+    {
+      "id": "laundry_strip_beds",
+      "name": "Strip bed linens",
+      "category": "laundry",
+      "subcategory": "linens",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "weekly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "sheets",
+        "bed"
+      ],
+      "aliases": [
+        "remove sheets"
+      ]
+    },
+    {
+      "id": "laundry_change_sheets",
+      "name": "Change bed sheets",
+      "category": "laundry",
+      "subcategory": "linens",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "weekly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "sheets",
+        "bedroom"
+      ],
+      "aliases": [
+        "fresh sheets"
+      ]
+    },
+    {
+      "id": "laundry_wash_towels",
+      "name": "Wash towels",
+      "category": "laundry",
+      "subcategory": "linens",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 1,
+      "frequency": "weekly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "towels"
+      ],
+      "aliases": [
+        "do towels"
+      ]
+    },
+    {
+      "id": "laundry_wash_bedding",
+      "name": "Wash bedding",
+      "category": "laundry",
+      "subcategory": "linens",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "weekly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "bedding"
+      ],
+      "aliases": [
+        "wash sheets"
+      ]
+    },
+    {
+      "id": "laundry_iron_clothes",
+      "name": "Iron or steam clothes",
+      "category": "laundry",
+      "subcategory": "special_care",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "as_needed",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "iron",
+        "steam"
+      ],
+      "aliases": [
+        "steam clothes"
+      ]
+    },
+    {
+      "id": "laundry_dry_clean_dropoff",
+      "name": "Drop off dry cleaning",
+      "category": "laundry",
+      "subcategory": "special_care",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "as_needed",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "dry_cleaning",
+      "lead_intent": "purchase_intent",
+      "tags": [
+        "dry cleaning"
+      ],
+      "aliases": [
+        "take clothes to cleaner"
+      ]
+    },
+    {
+      "id": "laundry_pickup_dry_cleaning",
+      "name": "Pick up dry cleaning",
+      "category": "laundry",
+      "subcategory": "special_care",
+      "default_tier": 2,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "as_needed",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "dry_cleaning",
+      "lead_intent": "purchase_intent",
+      "tags": [
+        "dry cleaning"
+      ],
+      "aliases": [
+        "grab dry cleaning"
+      ]
+    },
+    {
+      "id": "laundry_clean_lint_trap_area",
+      "name": "Clean lint trap and dryer area",
+      "category": "laundry",
+      "subcategory": "maintenance",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "monthly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "lint trap",
+        "dryer"
+      ],
+      "aliases": [
+        "clear lint"
+      ]
+    },
+    {
+      "id": "laundry_deep_clean_washer",
+      "name": "Deep clean washing machine",
+      "category": "laundry",
+      "subcategory": "maintenance",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "monthly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "washer"
+      ],
+      "aliases": [
+        "clean washing machine"
+      ]
+    },
+    {
+      "id": "laundry_deep_clean_dryer_vent",
+      "name": "Deep clean dryer vent",
+      "category": "laundry",
+      "subcategory": "maintenance",
+      "default_tier": 3,
+      "effort": 3,
+      "friction": 3,
+      "frequency": "quarterly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "mixed",
+      "service_category": "handyman",
+      "lead_intent": "maintenance",
+      "tags": [
+        "dryer vent"
+      ],
+      "aliases": [
+        "clean dryer vent"
+      ]
+    },
+    {
+      "id": "laundry_donate_old_clothes",
+      "name": "Sort and donate old clothes",
+      "category": "laundry",
+      "subcategory": "organization",
+      "default_tier": 3,
+      "effort": 3,
+      "friction": 2,
+      "frequency": "quarterly",
+      "proof_eligible": true,
+      "social_eligible": true,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "donate",
+        "clothes"
+      ],
+      "aliases": [
+        "clothing purge"
+      ]
+    },
+    {
+      "id": "clean_bathroom_sink",
+      "name": "Clean bathroom sink",
+      "category": "cleaning",
+      "subcategory": "bathroom",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "weekly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "bathroom",
+        "sink"
+      ],
+      "aliases": [
+        "wipe bathroom sink"
+      ]
+    },
+    {
+      "id": "clean_toilet_quick",
+      "name": "Quick clean toilet",
+      "category": "cleaning",
+      "subcategory": "bathroom",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 2,
+      "frequency": "weekly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "toilet"
+      ],
+      "aliases": [
+        "wipe toilet"
+      ]
+    },
+    {
+      "id": "clean_shower_quick",
+      "name": "Quick clean shower",
+      "category": "cleaning",
+      "subcategory": "bathroom",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "weekly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "shower"
+      ],
+      "aliases": [
+        "rinse shower"
+      ]
+    },
+    {
+      "id": "clean_bathroom_full",
+      "name": "Clean bathroom fully",
+      "category": "cleaning",
+      "subcategory": "bathroom",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "weekly",
+      "proof_eligible": true,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "cleaning",
+      "lead_intent": "maintenance",
+      "tags": [
+        "bathroom",
+        "deep"
+      ],
+      "aliases": [
+        "deep clean bathroom"
+      ]
+    },
+    {
+      "id": "clean_shower_scrub",
+      "name": "Scrub shower or tub",
+      "category": "cleaning",
+      "subcategory": "bathroom",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 3,
+      "frequency": "weekly",
+      "proof_eligible": true,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "cleaning",
+      "lead_intent": "maintenance",
+      "tags": [
+        "shower",
+        "tub"
+      ],
+      "aliases": [
+        "scrub tub"
+      ]
+    },
+    {
+      "id": "clean_toilet_deep",
+      "name": "Deep clean toilet",
+      "category": "cleaning",
+      "subcategory": "bathroom",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 3,
+      "frequency": "weekly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "toilet",
+        "deep"
+      ],
+      "aliases": [
+        "scrub toilet"
+      ]
+    },
+    {
+      "id": "clean_mirrors_all",
+      "name": "Clean all mirrors",
+      "category": "cleaning",
+      "subcategory": "bathroom",
+      "default_tier": 2,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "weekly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "mirrors"
+      ],
+      "aliases": [
+        "wipe mirrors"
+      ]
+    },
+    {
+      "id": "clean_blinds",
+      "name": "Clean blinds",
+      "category": "cleaning",
+      "subcategory": "deep_cleaning",
+      "default_tier": 3,
+      "effort": 3,
+      "friction": 3,
+      "frequency": "quarterly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "mixed",
+      "service_category": "cleaning",
+      "lead_intent": "maintenance",
+      "tags": [
+        "blinds"
+      ],
+      "aliases": [
+        "dust blinds"
+      ]
+    },
+    {
+      "id": "clean_ceiling_fans",
+      "name": "Clean ceiling fans",
+      "category": "cleaning",
+      "subcategory": "deep_cleaning",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "monthly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "ceiling fan"
+      ],
+      "aliases": [
+        "dust fans"
+      ]
+    },
+    {
+      "id": "clean_under_furniture",
+      "name": "Move furniture and clean underneath",
+      "category": "cleaning",
+      "subcategory": "deep_cleaning",
+      "default_tier": 3,
+      "effort": 3,
+      "friction": 3,
+      "frequency": "quarterly",
+      "proof_eligible": true,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "cleaning",
+      "lead_intent": "maintenance",
+      "tags": [
+        "under furniture"
+      ],
+      "aliases": [
+        "vacuum under couch"
+      ]
+    },
+    {
+      "id": "whole_house_deep_clean",
+      "name": "Whole-house deep clean",
+      "category": "cleaning",
+      "subcategory": "deep_cleaning",
+      "default_tier": 4,
+      "effort": 4,
+      "friction": 3,
+      "frequency": "quarterly",
+      "proof_eligible": true,
+      "social_eligible": true,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "mixed",
+      "service_category": "cleaning",
+      "lead_intent": "home_improvement",
+      "tags": [
+        "whole house",
+        "deep clean"
+      ],
+      "aliases": [
+        "full house clean"
+      ]
+    },
+    {
+      "id": "move_out_clean",
+      "name": "Move-out style clean",
+      "category": "cleaning",
+      "subcategory": "deep_cleaning",
+      "default_tier": 4,
+      "effort": 4,
+      "friction": 3,
+      "frequency": "rare",
+      "proof_eligible": true,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "mixed",
+      "service_category": "cleaning",
+      "lead_intent": "high_purchase_intent",
+      "tags": [
+        "move out",
+        "clean"
+      ],
+      "aliases": [
+        "move out cleaning"
+      ]
+    },
+    {
+      "id": "declutter_storage_area",
+      "name": "Declutter storage area",
+      "category": "cleaning",
+      "subcategory": "organization",
+      "default_tier": 3,
+      "effort": 3,
+      "friction": 2,
+      "frequency": "quarterly",
+      "proof_eligible": true,
+      "social_eligible": true,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "organizer",
+      "lead_intent": "home_improvement",
+      "tags": [
+        "storage",
+        "declutter"
+      ],
+      "aliases": [
+        "organize storage"
+      ]
+    },
+    {
+      "id": "seasonal_home_reset",
+      "name": "Seasonal home reset",
+      "category": "cleaning",
+      "subcategory": "organization",
+      "default_tier": 4,
+      "effort": 4,
+      "friction": 2,
+      "frequency": "seasonal",
+      "proof_eligible": true,
+      "social_eligible": true,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "organizer",
+      "lead_intent": "home_improvement",
+      "tags": [
+        "seasonal reset"
+      ],
+      "aliases": [
+        "seasonal refresh"
+      ]
+    },
+    {
+      "id": "yard_pick_up_debris",
+      "name": "Pick up yard debris",
+      "category": "exterior",
+      "subcategory": "yard_cleanup",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "weekly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "yard",
+        "debris"
+      ],
+      "aliases": [
+        "pick up sticks"
+      ]
+    },
+    {
+      "id": "yard_water_plants",
+      "name": "Water outdoor plants",
+      "category": "exterior",
+      "subcategory": "plant_care",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "several_times_weekly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "plants",
+        "water"
+      ],
+      "aliases": [
+        "water plants"
+      ]
+    },
+    {
+      "id": "yard_sweep_porch",
+      "name": "Sweep porch or patio",
+      "category": "exterior",
+      "subcategory": "yard_cleanup",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "weekly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "porch",
+        "patio"
+      ],
+      "aliases": [
+        "sweep patio"
+      ]
+    },
+    {
+      "id": "yard_salt_walkway_light",
+      "name": "Salt walkway lightly",
+      "category": "exterior",
+      "subcategory": "winter",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "as_needed",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "snow",
+        "ice"
+      ],
+      "aliases": [
+        "salt sidewalk"
+      ]
+    },
+    {
+      "id": "yard_bring_in_packages",
+      "name": "Bring in packages from porch",
+      "category": "exterior",
+      "subcategory": "entry",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "daily",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "packages",
+        "porch"
+      ],
+      "aliases": [
+        "grab packages"
+      ]
+    },
+    {
+      "id": "yard_rake_leaves",
+      "name": "Rake leaves",
+      "category": "exterior",
+      "subcategory": "yard_cleanup",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "seasonal",
+      "proof_eligible": true,
+      "social_eligible": true,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "yard_service",
+      "lead_intent": "maintenance",
+      "tags": [
+        "leaves",
+        "fall"
+      ],
+      "aliases": [
+        "leaf cleanup"
+      ]
+    },
+    {
+      "id": "yard_bag_leaves",
+      "name": "Bag leaves for pickup",
+      "category": "exterior",
+      "subcategory": "yard_cleanup",
+      "default_tier": 3,
+      "effort": 3,
+      "friction": 2,
+      "frequency": "seasonal",
+      "proof_eligible": true,
+      "social_eligible": true,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "yard_service",
+      "lead_intent": "maintenance",
+      "tags": [
+        "leaves",
+        "bags"
+      ],
+      "aliases": [
+        "bag yard waste"
+      ]
+    },
+    {
+      "id": "yard_pull_weeds",
+      "name": "Pull weeds",
+      "category": "exterior",
+      "subcategory": "plant_care",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "weekly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "yard_service",
+      "lead_intent": "maintenance",
+      "tags": [
+        "weeds",
+        "garden"
+      ],
+      "aliases": [
+        "weed garden"
+      ]
+    },
+    {
+      "id": "yard_mow_lawn",
+      "name": "Mow lawn",
+      "category": "exterior",
+      "subcategory": "yard_cleanup",
+      "default_tier": 3,
+      "effort": 3,
+      "friction": 2,
+      "frequency": "weekly",
+      "proof_eligible": true,
+      "social_eligible": true,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "lawn_service",
+      "lead_intent": "maintenance",
+      "tags": [
+        "lawn",
+        "mow"
+      ],
+      "aliases": [
+        "cut grass"
+      ]
+    },
+    {
+      "id": "yard_edge_lawn",
+      "name": "Edge lawn",
+      "category": "exterior",
+      "subcategory": "yard_cleanup",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "weekly",
+      "proof_eligible": true,
+      "social_eligible": true,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "lawn_service",
+      "lead_intent": "maintenance",
+      "tags": [
+        "edge",
+        "lawn"
+      ],
+      "aliases": [
+        "trim edges"
+      ]
+    },
+    {
+      "id": "yard_mulch_beds",
+      "name": "Mulch garden beds",
+      "category": "exterior",
+      "subcategory": "plant_care",
+      "default_tier": 3,
+      "effort": 3,
+      "friction": 2,
+      "frequency": "seasonal",
+      "proof_eligible": true,
+      "social_eligible": true,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "landscaping",
+      "lead_intent": "home_improvement",
+      "tags": [
+        "mulch",
+        "beds"
+      ],
+      "aliases": [
+        "lay mulch"
+      ]
+    },
+    {
+      "id": "yard_trim_bushes",
+      "name": "Trim bushes",
+      "category": "exterior",
+      "subcategory": "yard_cleanup",
+      "default_tier": 3,
+      "effort": 3,
+      "friction": 2,
+      "frequency": "seasonal",
+      "proof_eligible": true,
+      "social_eligible": true,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "mixed",
+      "service_category": "yard_service",
+      "lead_intent": "maintenance",
+      "tags": [
+        "bushes",
+        "trim"
+      ],
+      "aliases": [
+        "trim hedges"
+      ]
+    },
+    {
+      "id": "yard_clean_gutters_ground",
+      "name": "Clean accessible gutter sections",
+      "category": "exterior",
+      "subcategory": "maintenance",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 3,
+      "frequency": "seasonal",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "mixed",
+      "service_category": "gutter_service",
+      "lead_intent": "preventive_maintenance",
+      "tags": [
+        "gutters"
+      ],
+      "aliases": [
+        "clear gutters"
+      ]
+    },
+    {
+      "id": "yard_clean_gutters_full",
+      "name": "Clean gutters fully",
+      "category": "exterior",
+      "subcategory": "maintenance",
+      "default_tier": 3,
+      "effort": 3,
+      "friction": 3,
+      "frequency": "seasonal",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "mixed",
+      "service_category": "gutter_service",
+      "lead_intent": "preventive_maintenance",
+      "tags": [
+        "gutters",
+        "ladder"
+      ],
+      "aliases": [
+        "full gutter clean"
+      ]
+    },
+    {
+      "id": "yard_pressure_wash_patio",
+      "name": "Pressure wash patio or deck",
+      "category": "exterior",
+      "subcategory": "deep_cleaning",
+      "default_tier": 3,
+      "effort": 3,
+      "friction": 2,
+      "frequency": "seasonal",
+      "proof_eligible": true,
+      "social_eligible": true,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "mixed",
+      "service_category": "pressure_washing",
+      "lead_intent": "home_improvement",
+      "tags": [
+        "pressure wash",
+        "patio"
+      ],
+      "aliases": [
+        "power wash patio"
+      ]
+    },
+    {
+      "id": "yard_clean_outdoor_furniture",
+      "name": "Clean outdoor furniture",
+      "category": "exterior",
+      "subcategory": "yard_cleanup",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "seasonal",
+      "proof_eligible": true,
+      "social_eligible": true,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "cleaning",
+      "lead_intent": "maintenance",
+      "tags": [
+        "outdoor furniture"
+      ],
+      "aliases": [
+        "wash patio furniture"
+      ]
+    },
+    {
+      "id": "yard_shovel_snow_light",
+      "name": "Shovel light snow",
+      "category": "exterior",
+      "subcategory": "winter",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "as_needed",
+      "proof_eligible": true,
+      "social_eligible": true,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "snow_removal",
+      "lead_intent": "urgent_service",
+      "tags": [
+        "snow",
+        "shovel"
+      ],
+      "aliases": [
+        "clear sidewalk"
+      ]
+    },
+    {
+      "id": "yard_shovel_snow_heavy",
+      "name": "Shovel heavy snow",
+      "category": "exterior",
+      "subcategory": "winter",
+      "default_tier": 3,
+      "effort": 3,
+      "friction": 3,
+      "frequency": "as_needed",
+      "proof_eligible": true,
+      "social_eligible": true,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "mixed",
+      "service_category": "snow_removal",
+      "lead_intent": "urgent_service",
+      "tags": [
+        "snow",
+        "storm"
+      ],
+      "aliases": [
+        "snow removal"
+      ]
+    },
+    {
+      "id": "yard_clear_storm_debris",
+      "name": "Clear storm debris",
+      "category": "exterior",
+      "subcategory": "yard_cleanup",
+      "default_tier": 3,
+      "effort": 3,
+      "friction": 3,
+      "frequency": "as_needed",
+      "proof_eligible": true,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "mixed",
+      "service_category": "yard_service",
+      "lead_intent": "urgent_service",
+      "tags": [
+        "storm",
+        "debris"
+      ],
+      "aliases": [
+        "storm cleanup"
+      ]
+    },
+    {
+      "id": "yard_put_up_holiday_decor",
+      "name": "Put up holiday decorations",
+      "category": "exterior",
+      "subcategory": "holiday",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "seasonal",
+      "proof_eligible": true,
+      "social_eligible": true,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "decor_services",
+      "lead_intent": "purchase_intent",
+      "tags": [
+        "holiday",
+        "decor"
+      ],
+      "aliases": [
+        "hang decorations"
+      ]
+    },
+    {
+      "id": "yard_take_down_holiday_decor",
+      "name": "Take down holiday decorations",
+      "category": "exterior",
+      "subcategory": "holiday",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "seasonal",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "holiday",
+        "decor"
+      ],
+      "aliases": [
+        "remove decorations"
+      ]
+    },
+    {
+      "id": "yard_clean_grill",
+      "name": "Clean grill thoroughly",
+      "category": "exterior",
+      "subcategory": "maintenance",
+      "default_tier": 3,
+      "effort": 3,
+      "friction": 3,
+      "frequency": "monthly",
+      "proof_eligible": true,
+      "social_eligible": true,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "cleaning",
+      "lead_intent": "maintenance",
+      "tags": [
+        "grill"
+      ],
+      "aliases": [
+        "deep clean grill"
+      ]
+    },
+    {
+      "id": "yard_fence_repair",
+      "name": "Repair or stain fence",
+      "category": "exterior",
+      "subcategory": "repair",
+      "default_tier": 4,
+      "effort": 4,
+      "friction": 3,
+      "frequency": "rare",
+      "proof_eligible": true,
+      "social_eligible": true,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "mixed",
+      "service_category": "handyman",
+      "lead_intent": "home_improvement",
+      "tags": [
+        "fence"
+      ],
+      "aliases": [
+        "fix fence"
+      ]
+    },
+    {
+      "id": "yard_shed_cleanup",
+      "name": "Clean or reorganize shed",
+      "category": "exterior",
+      "subcategory": "organization",
+      "default_tier": 3,
+      "effort": 3,
+      "friction": 2,
+      "frequency": "seasonal",
+      "proof_eligible": true,
+      "social_eligible": true,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "organizer",
+      "lead_intent": "home_improvement",
+      "tags": [
+        "shed"
+      ],
+      "aliases": [
+        "shed reset"
+      ]
+    },
+    {
+      "id": "yard_deck_restore",
+      "name": "Restore or stain deck",
+      "category": "exterior",
+      "subcategory": "improvement",
+      "default_tier": 4,
+      "effort": 4,
+      "friction": 3,
+      "frequency": "rare",
+      "proof_eligible": true,
+      "social_eligible": true,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "mixed",
+      "service_category": "deck_service",
+      "lead_intent": "home_improvement",
+      "tags": [
+        "deck",
+        "stain"
+      ],
+      "aliases": [
+        "restore deck"
+      ]
+    },
+    {
+      "id": "pet_feed_dog",
+      "name": "Feed dog",
+      "category": "pet",
+      "subcategory": "feeding",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "daily",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "dog",
+        "food"
+      ],
+      "aliases": [
+        "give dog food"
+      ]
+    },
+    {
+      "id": "pet_feed_cat",
+      "name": "Feed cat",
+      "category": "pet",
+      "subcategory": "feeding",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "daily",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "cat",
+        "food"
+      ],
+      "aliases": [
+        "give cat food"
+      ]
+    },
+    {
+      "id": "pet_feed_fish",
+      "name": "Feed fish",
+      "category": "pet",
+      "subcategory": "feeding",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "daily",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "fish",
+        "tank"
+      ],
+      "aliases": [
+        "feed aquarium"
+      ]
+    },
+    {
+      "id": "pet_feed_bird",
+      "name": "Feed bird",
+      "category": "pet",
+      "subcategory": "feeding",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "daily",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "bird",
+        "cage"
+      ],
+      "aliases": [
+        "feed bird"
+      ]
+    },
+    {
+      "id": "pet_refill_water_bowls",
+      "name": "Refill pet water bowls",
+      "category": "pet",
+      "subcategory": "feeding",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "daily",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "water"
+      ],
+      "aliases": [
+        "fill pet water"
+      ]
+    },
+    {
+      "id": "pet_short_dog_walk",
+      "name": "Short dog walk",
+      "category": "pet",
+      "subcategory": "exercise",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "daily",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "dog walk"
+      ],
+      "aliases": [
+        "quick dog walk"
+      ]
+    },
+    {
+      "id": "pet_scoop_litter_box",
+      "name": "Scoop litter box",
+      "category": "pet",
+      "subcategory": "hygiene",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 2,
+      "frequency": "daily",
+      "proof_eligible": true,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "cat",
+        "litter"
+      ],
+      "aliases": [
+        "clean litter box"
+      ]
+    },
+    {
+      "id": "pet_quick_yard_poop_pickup",
+      "name": "Quick yard poop pickup",
+      "category": "pet",
+      "subcategory": "waste",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 2,
+      "frequency": "daily",
+      "proof_eligible": true,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "yard",
+        "dog"
+      ],
+      "aliases": [
+        "pick up dog poop"
+      ]
+    },
+    {
+      "id": "pet_brush_pet_quick",
+      "name": "Quick pet brushing",
+      "category": "pet",
+      "subcategory": "grooming",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "weekly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "brush",
+        "fur"
+      ],
+      "aliases": [
+        "brush dog"
+      ]
+    },
+    {
+      "id": "pet_medication_dose",
+      "name": "Give pet medication dose",
+      "category": "pet",
+      "subcategory": "health",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 2,
+      "frequency": "daily",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "medication"
+      ],
+      "aliases": [
+        "give meds"
+      ]
+    },
+    {
+      "id": "pet_clean_bird_cage_tray",
+      "name": "Clean bird cage tray",
+      "category": "pet",
+      "subcategory": "habitat",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "weekly",
+      "proof_eligible": true,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "bird cage",
+        "tray"
+      ],
+      "aliases": [
+        "change cage liner"
+      ]
+    },
+    {
+      "id": "pet_partial_fish_tank_clean",
+      "name": "Partial fish tank water change",
+      "category": "pet",
+      "subcategory": "habitat",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "weekly",
+      "proof_eligible": true,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "pet_supplies",
+      "lead_intent": "purchase_intent",
+      "tags": [
+        "fish tank",
+        "water"
+      ],
+      "aliases": [
+        "clean fish tank"
+      ]
+    },
+    {
+      "id": "pet_brush_dog_teeth",
+      "name": "Brush dog teeth",
+      "category": "pet",
+      "subcategory": "health",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "weekly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "pet_supplies",
+      "lead_intent": "purchase_intent",
+      "tags": [
+        "dog",
+        "teeth"
+      ],
+      "aliases": [
+        "clean dog teeth"
+      ]
+    },
+    {
+      "id": "pet_brush_cat_teeth",
+      "name": "Brush cat teeth",
+      "category": "pet",
+      "subcategory": "health",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 3,
+      "frequency": "weekly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "pet_supplies",
+      "lead_intent": "purchase_intent",
+      "tags": [
+        "cat",
+        "teeth"
+      ],
+      "aliases": [
+        "clean cat teeth"
+      ]
+    },
+    {
+      "id": "pet_wash_bedding",
+      "name": "Wash pet bedding",
+      "category": "pet",
+      "subcategory": "hygiene",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "weekly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "pet bed"
+      ],
+      "aliases": [
+        "wash dog bed"
+      ]
+    },
+    {
+      "id": "pet_full_yard_poop_cleanup",
+      "name": "Full yard poop cleanup",
+      "category": "pet",
+      "subcategory": "waste",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "weekly",
+      "proof_eligible": true,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "yard",
+        "poop"
+      ],
+      "aliases": [
+        "clean dog poop yard"
+      ]
+    },
+    {
+      "id": "pet_restock_food",
+      "name": "Restock pet food",
+      "category": "pet",
+      "subcategory": "supplies",
+      "default_tier": 2,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "monthly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "pet_supplies",
+      "lead_intent": "subscription",
+      "tags": [
+        "pet food"
+      ],
+      "aliases": [
+        "buy pet food"
+      ]
+    },
+    {
+      "id": "pet_restock_litter",
+      "name": "Restock cat litter",
+      "category": "pet",
+      "subcategory": "supplies",
+      "default_tier": 2,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "monthly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "pet_supplies",
+      "lead_intent": "purchase_intent",
+      "tags": [
+        "litter"
+      ],
+      "aliases": [
+        "buy litter"
+      ]
+    },
+    {
+      "id": "pet_bathe_pet",
+      "name": "Bathe pet",
+      "category": "pet",
+      "subcategory": "grooming",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "monthly",
+      "proof_eligible": true,
+      "social_eligible": true,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "pet_grooming",
+      "lead_intent": "maintenance",
+      "tags": [
+        "bath"
+      ],
+      "aliases": [
+        "wash dog"
+      ]
+    },
+    {
+      "id": "pet_vet_visit",
+      "name": "Take pet to vet",
+      "category": "pet",
+      "subcategory": "health",
+      "default_tier": 3,
+      "effort": 3,
+      "friction": 3,
+      "frequency": "as_needed",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "no",
+      "service_category": "vet",
+      "lead_intent": "high_purchase_intent",
+      "tags": [
+        "vet",
+        "appointment"
+      ],
+      "aliases": [
+        "vet trip"
+      ]
+    },
+    {
+      "id": "pet_grooming_appointment",
+      "name": "Take pet to grooming appointment",
+      "category": "pet",
+      "subcategory": "grooming",
+      "default_tier": 3,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "as_needed",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "no",
+      "service_category": "pet_grooming",
+      "lead_intent": "purchase_intent",
+      "tags": [
+        "grooming"
+      ],
+      "aliases": [
+        "dog groomer"
+      ]
+    },
+    {
+      "id": "pet_training_session",
+      "name": "Do pet training session",
+      "category": "pet",
+      "subcategory": "training",
+      "default_tier": 3,
+      "effort": 3,
+      "friction": 2,
+      "frequency": "weekly",
+      "proof_eligible": true,
+      "social_eligible": true,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "pet_training",
+      "lead_intent": "purchase_intent",
+      "tags": [
+        "training"
+      ],
+      "aliases": [
+        "obedience session"
+      ]
+    },
+    {
+      "id": "pet_deep_clean_litter_box",
+      "name": "Deep clean litter box",
+      "category": "pet",
+      "subcategory": "hygiene",
+      "default_tier": 3,
+      "effort": 3,
+      "friction": 3,
+      "frequency": "monthly",
+      "proof_eligible": true,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "litter",
+        "deep clean"
+      ],
+      "aliases": [
+        "disinfect litter box"
+      ]
+    },
+    {
+      "id": "pet_deep_clean_bird_cage",
+      "name": "Deep clean bird cage",
+      "category": "pet",
+      "subcategory": "habitat",
+      "default_tier": 3,
+      "effort": 3,
+      "friction": 3,
+      "frequency": "monthly",
+      "proof_eligible": true,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "bird cage",
+        "deep clean"
+      ],
+      "aliases": [
+        "scrub bird cage"
+      ]
+    },
+    {
+      "id": "pet_deep_clean_fish_tank",
+      "name": "Deep clean fish tank",
+      "category": "pet",
+      "subcategory": "habitat",
+      "default_tier": 3,
+      "effort": 3,
+      "friction": 3,
+      "frequency": "monthly",
+      "proof_eligible": true,
+      "social_eligible": true,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "pet_supplies",
+      "lead_intent": "purchase_intent",
+      "tags": [
+        "fish tank",
+        "deep"
+      ],
+      "aliases": [
+        "full aquarium clean"
+      ]
+    },
+    {
+      "id": "pet_deep_clean_pet_area",
+      "name": "Deep clean pet area",
+      "category": "pet",
+      "subcategory": "hygiene",
+      "default_tier": 3,
+      "effort": 3,
+      "friction": 2,
+      "frequency": "monthly",
+      "proof_eligible": true,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "cleaning",
+      "lead_intent": "maintenance",
+      "tags": [
+        "pet area"
+      ],
+      "aliases": [
+        "clean dog corner"
+      ]
+    },
+    {
+      "id": "pet_build_enclosure",
+      "name": "Build or upgrade pet enclosure",
+      "category": "pet",
+      "subcategory": "habitat",
+      "default_tier": 4,
+      "effort": 4,
+      "friction": 3,
+      "frequency": "rare",
+      "proof_eligible": true,
+      "social_eligible": true,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "mixed",
+      "service_category": "pet_supplies",
+      "lead_intent": "home_improvement",
+      "tags": [
+        "enclosure"
+      ],
+      "aliases": [
+        "upgrade habitat"
+      ]
+    },
+    {
+      "id": "pet_recovery_care_setup",
+      "name": "Set up major pet recovery area",
+      "category": "pet",
+      "subcategory": "health",
+      "default_tier": 4,
+      "effort": 4,
+      "friction": 3,
+      "frequency": "rare",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "mixed",
+      "service_category": "vet",
+      "lead_intent": "high_purchase_intent",
+      "tags": [
+        "recovery",
+        "care"
+      ],
+      "aliases": [
+        "recovery station"
+      ]
+    },
+    {
+      "id": "kid_pack_school_lunch",
+      "name": "Pack school lunch",
+      "category": "kid",
+      "subcategory": "parent_assigned",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "daily",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "school",
+        "lunch"
+      ],
+      "aliases": [
+        "make school lunch"
+      ]
+    },
+    {
+      "id": "kid_school_dropoff",
+      "name": "School drop-off",
+      "category": "kid",
+      "subcategory": "parent_assigned",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "daily",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "school",
+        "dropoff"
+      ],
+      "aliases": [
+        "drop kids off"
+      ]
+    },
+    {
+      "id": "kid_school_pickup",
+      "name": "School pick-up",
+      "category": "kid",
+      "subcategory": "parent_assigned",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "daily",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "school",
+        "pickup"
+      ],
+      "aliases": [
+        "pick kids up"
+      ]
+    },
+    {
+      "id": "kid_bedtime_routine",
+      "name": "Bedtime routine",
+      "category": "kid",
+      "subcategory": "parent_assigned",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 2,
+      "frequency": "daily",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "bedtime"
+      ],
+      "aliases": [
+        "put kids to bed"
+      ]
+    },
+    {
+      "id": "kid_homework_help",
+      "name": "Help with homework",
+      "category": "kid",
+      "subcategory": "parent_assigned",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 2,
+      "frequency": "daily",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "homework"
+      ],
+      "aliases": [
+        "assist homework"
+      ]
+    },
+    {
+      "id": "kid_toy_cleanup_parent",
+      "name": "Help clean up toys",
+      "category": "kid",
+      "subcategory": "parent_assigned",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "daily",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "toys"
+      ],
+      "aliases": [
+        "pick up toys with child"
+      ]
+    },
+    {
+      "id": "kid_make_bed",
+      "name": "Make bed",
+      "category": "kid",
+      "subcategory": "kid_assigned",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "daily",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "kids",
+        "bed"
+      ],
+      "aliases": [
+        "kid make bed"
+      ]
+    },
+    {
+      "id": "kid_pick_up_toys",
+      "name": "Pick up toys",
+      "category": "kid",
+      "subcategory": "kid_assigned",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "daily",
+      "proof_eligible": true,
+      "social_eligible": true,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "toys"
+      ],
+      "aliases": [
+        "toy pickup"
+      ]
+    },
+    {
+      "id": "kid_put_dishes_away",
+      "name": "Put dishes away",
+      "category": "kid",
+      "subcategory": "kid_assigned",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "daily",
+      "proof_eligible": false,
+      "social_eligible": true,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "dishes"
+      ],
+      "aliases": [
+        "kid unload dishes"
+      ]
+    },
+    {
+      "id": "kid_feed_pet",
+      "name": "Feed pet",
+      "category": "kid",
+      "subcategory": "kid_assigned",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "daily",
+      "proof_eligible": false,
+      "social_eligible": true,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "pet"
+      ],
+      "aliases": [
+        "kid feed dog"
+      ]
+    },
+    {
+      "id": "kid_organize_books",
+      "name": "Organize books",
+      "category": "kid",
+      "subcategory": "kid_assigned",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "weekly",
+      "proof_eligible": true,
+      "social_eligible": true,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "books"
+      ],
+      "aliases": [
+        "put books away"
+      ]
+    },
+    {
+      "id": "kid_laundry",
+      "name": "Do kids' laundry",
+      "category": "kid",
+      "subcategory": "parent_assigned",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "weekly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "laundry",
+        "kids"
+      ],
+      "aliases": [
+        "wash kid clothes"
+      ]
+    },
+    {
+      "id": "kid_room_cleanup_with_child",
+      "name": "Clean kid room with child",
+      "category": "kid",
+      "subcategory": "parent_assigned",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "weekly",
+      "proof_eligible": true,
+      "social_eligible": true,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "kid room"
+      ],
+      "aliases": [
+        "room tidy with child"
+      ]
+    },
+    {
+      "id": "kid_meal_prep",
+      "name": "Prepare meals for kids",
+      "category": "kid",
+      "subcategory": "parent_assigned",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "weekly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "kids",
+        "food"
+      ],
+      "aliases": [
+        "kid meal prep"
+      ]
+    },
+    {
+      "id": "kid_activity_logistics",
+      "name": "Manage sports or activity logistics",
+      "category": "kid",
+      "subcategory": "parent_assigned",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "weekly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "childcare",
+      "lead_intent": "purchase_intent",
+      "tags": [
+        "activities",
+        "schedule"
+      ],
+      "aliases": [
+        "sports logistics"
+      ]
+    },
+    {
+      "id": "kid_set_table",
+      "name": "Set table",
+      "category": "kid",
+      "subcategory": "kid_assigned",
+      "default_tier": 2,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "daily",
+      "proof_eligible": false,
+      "social_eligible": true,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "table"
+      ],
+      "aliases": [
+        "kid set table"
+      ]
+    },
+    {
+      "id": "kid_help_with_laundry",
+      "name": "Help with laundry",
+      "category": "kid",
+      "subcategory": "kid_assigned",
+      "default_tier": 2,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "weekly",
+      "proof_eligible": false,
+      "social_eligible": true,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "laundry"
+      ],
+      "aliases": [
+        "kid help fold"
+      ]
+    },
+    {
+      "id": "kid_light_room_cleaning",
+      "name": "Light room cleaning",
+      "category": "kid",
+      "subcategory": "kid_assigned",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 1,
+      "frequency": "weekly",
+      "proof_eligible": true,
+      "social_eligible": true,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "room"
+      ],
+      "aliases": [
+        "kid clean room"
+      ]
+    },
+    {
+      "id": "kid_full_room_reset",
+      "name": "Full room reset",
+      "category": "kid",
+      "subcategory": "parent_assigned",
+      "default_tier": 3,
+      "effort": 3,
+      "friction": 2,
+      "frequency": "monthly",
+      "proof_eligible": true,
+      "social_eligible": true,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "kid room",
+        "deep clean"
+      ],
+      "aliases": [
+        "reset room"
+      ]
+    },
+    {
+      "id": "kid_school_project_support",
+      "name": "Support school project",
+      "category": "kid",
+      "subcategory": "parent_assigned",
+      "default_tier": 3,
+      "effort": 3,
+      "friction": 2,
+      "frequency": "as_needed",
+      "proof_eligible": true,
+      "social_eligible": true,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "education",
+      "lead_intent": "purchase_intent",
+      "tags": [
+        "school project"
+      ],
+      "aliases": [
+        "help school project"
+      ]
+    },
+    {
+      "id": "kid_schedule_coordination",
+      "name": "Coordinate major kid schedule changes",
+      "category": "kid",
+      "subcategory": "parent_assigned",
+      "default_tier": 3,
+      "effort": 3,
+      "friction": 3,
+      "frequency": "as_needed",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "childcare",
+      "lead_intent": "purchase_intent",
+      "tags": [
+        "schedule"
+      ],
+      "aliases": [
+        "kid calendar management"
+      ]
+    },
+    {
+      "id": "kid_deep_clean_room",
+      "name": "Deep clean room",
+      "category": "kid",
+      "subcategory": "kid_assigned",
+      "default_tier": 3,
+      "effort": 3,
+      "friction": 2,
+      "frequency": "monthly",
+      "proof_eligible": true,
+      "social_eligible": true,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "room",
+        "deep clean"
+      ],
+      "aliases": [
+        "kid deep room clean"
+      ]
+    },
+    {
+      "id": "kid_help_yard_work",
+      "name": "Help with yard work",
+      "category": "kid",
+      "subcategory": "kid_assigned",
+      "default_tier": 3,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "seasonal",
+      "proof_eligible": true,
+      "social_eligible": true,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "yard"
+      ],
+      "aliases": [
+        "kid yard help"
+      ]
+    },
+    {
+      "id": "kid_major_transition_planning",
+      "name": "Plan major school or room transition",
+      "category": "kid",
+      "subcategory": "parent_assigned",
+      "default_tier": 4,
+      "effort": 4,
+      "friction": 3,
+      "frequency": "rare",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "education",
+      "lead_intent": "high_purchase_intent",
+      "tags": [
+        "school transition"
+      ],
+      "aliases": [
+        "new school planning"
+      ]
+    },
+    {
+      "id": "kid_room_redesign",
+      "name": "Redesign kid room",
+      "category": "kid",
+      "subcategory": "parent_assigned",
+      "default_tier": 4,
+      "effort": 4,
+      "friction": 2,
+      "frequency": "rare",
+      "proof_eligible": true,
+      "social_eligible": true,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "mixed",
+      "service_category": "home_goods",
+      "lead_intent": "home_improvement",
+      "tags": [
+        "kid room",
+        "redesign"
+      ],
+      "aliases": [
+        "kids room makeover"
+      ]
+    },
+    {
+      "id": "kid_own_project",
+      "name": "Complete own mini project",
+      "category": "kid",
+      "subcategory": "kid_assigned",
+      "default_tier": 4,
+      "effort": 3,
+      "friction": 2,
+      "frequency": "rare",
+      "proof_eligible": true,
+      "social_eligible": true,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "project"
+      ],
+      "aliases": [
+        "kid project"
+      ]
+    },
+    {
+      "id": "vehicle_fill_gas",
+      "name": "Fill gas tank",
+      "category": "vehicle",
+      "subcategory": "routine",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "weekly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "gas_station",
+      "lead_intent": "purchase_intent",
+      "tags": [
+        "gas"
+      ],
+      "aliases": [
+        "get gas"
+      ]
+    },
+    {
+      "id": "vehicle_remove_car_trash",
+      "name": "Remove trash from car",
+      "category": "vehicle",
+      "subcategory": "routine",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "weekly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "car",
+        "trash"
+      ],
+      "aliases": [
+        "clean car trash"
+      ]
+    },
+    {
+      "id": "vehicle_check_tire_pressure",
+      "name": "Check tire pressure",
+      "category": "vehicle",
+      "subcategory": "routine",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "monthly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "tires"
+      ],
+      "aliases": [
+        "check tires"
+      ]
+    },
+    {
+      "id": "vehicle_refill_washer_fluid",
+      "name": "Refill windshield fluid",
+      "category": "vehicle",
+      "subcategory": "routine",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "monthly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "auto_parts",
+      "lead_intent": "maintenance",
+      "tags": [
+        "washer fluid"
+      ],
+      "aliases": [
+        "top off washer fluid"
+      ]
+    },
+    {
+      "id": "vehicle_quick_vacuum",
+      "name": "Quick vacuum car",
+      "category": "vehicle",
+      "subcategory": "cleaning",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "monthly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "car vacuum"
+      ],
+      "aliases": [
+        "vacuum car"
+      ]
+    },
+    {
+      "id": "vehicle_car_wash",
+      "name": "Wash car",
+      "category": "vehicle",
+      "subcategory": "cleaning",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 1,
+      "frequency": "monthly",
+      "proof_eligible": true,
+      "social_eligible": true,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "car_wash",
+      "lead_intent": "purchase_intent",
+      "tags": [
+        "car wash"
+      ],
+      "aliases": [
+        "clean car"
+      ]
+    },
+    {
+      "id": "vehicle_interior_wipe_down",
+      "name": "Wipe down interior",
+      "category": "vehicle",
+      "subcategory": "cleaning",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 1,
+      "frequency": "monthly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "interior",
+        "car"
+      ],
+      "aliases": [
+        "wipe car interior"
+      ]
+    },
+    {
+      "id": "vehicle_schedule_inspection",
+      "name": "Schedule vehicle inspection",
+      "category": "vehicle",
+      "subcategory": "compliance",
+      "default_tier": 2,
+      "effort": 1,
+      "friction": 2,
+      "frequency": "annual",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "no",
+      "service_category": "auto_service",
+      "lead_intent": "maintenance",
+      "tags": [
+        "inspection"
+      ],
+      "aliases": [
+        "book car inspection"
+      ]
+    },
+    {
+      "id": "vehicle_schedule_oil_change",
+      "name": "Schedule oil change",
+      "category": "vehicle",
+      "subcategory": "maintenance",
+      "default_tier": 2,
+      "effort": 1,
+      "friction": 2,
+      "frequency": "quarterly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "no",
+      "service_category": "auto_service",
+      "lead_intent": "maintenance",
+      "tags": [
+        "oil change"
+      ],
+      "aliases": [
+        "book oil change"
+      ]
+    },
+    {
+      "id": "vehicle_get_oil_changed",
+      "name": "Get oil changed",
+      "category": "vehicle",
+      "subcategory": "maintenance",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "quarterly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "mixed",
+      "service_category": "auto_service",
+      "lead_intent": "maintenance",
+      "tags": [
+        "oil",
+        "service"
+      ],
+      "aliases": [
+        "oil service"
+      ]
+    },
+    {
+      "id": "vehicle_rotate_tires",
+      "name": "Rotate tires",
+      "category": "vehicle",
+      "subcategory": "maintenance",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "biweekly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "no",
+      "service_category": "auto_service",
+      "lead_intent": "maintenance",
+      "tags": [
+        "tires",
+        "rotation"
+      ],
+      "aliases": [
+        "tire rotation"
+      ]
+    },
+    {
+      "id": "vehicle_renew_registration",
+      "name": "Renew registration",
+      "category": "vehicle",
+      "subcategory": "compliance",
+      "default_tier": 2,
+      "effort": 1,
+      "friction": 2,
+      "frequency": "annual",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "no",
+      "service_category": "dmv",
+      "lead_intent": "maintenance",
+      "tags": [
+        "registration"
+      ],
+      "aliases": [
+        "car registration"
+      ]
+    },
+    {
+      "id": "vehicle_emissions_test",
+      "name": "Take car for emissions test",
+      "category": "vehicle",
+      "subcategory": "compliance",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "annual",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "no",
+      "service_category": "dmv",
+      "lead_intent": "maintenance",
+      "tags": [
+        "emissions"
+      ],
+      "aliases": [
+        "emissions check"
+      ]
+    },
+    {
+      "id": "vehicle_battery_replacement_visit",
+      "name": "Get battery replaced",
+      "category": "vehicle",
+      "subcategory": "repair",
+      "default_tier": 3,
+      "effort": 2,
+      "friction": 3,
+      "frequency": "as_needed",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "no",
+      "service_category": "auto_service",
+      "lead_intent": "urgent_repair",
+      "tags": [
+        "battery"
+      ],
+      "aliases": [
+        "replace battery"
+      ]
+    },
+    {
+      "id": "vehicle_brake_service",
+      "name": "Get brakes changed",
+      "category": "vehicle",
+      "subcategory": "maintenance",
+      "default_tier": 3,
+      "effort": 3,
+      "friction": 3,
+      "frequency": "as_needed",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "no",
+      "service_category": "auto_repair",
+      "lead_intent": "urgent_repair",
+      "tags": [
+        "brakes"
+      ],
+      "aliases": [
+        "replace brakes",
+        "brake job"
+      ]
+    },
+    {
+      "id": "vehicle_tire_replacement",
+      "name": "Get tires replaced",
+      "category": "vehicle",
+      "subcategory": "maintenance",
+      "default_tier": 3,
+      "effort": 3,
+      "friction": 3,
+      "frequency": "as_needed",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "no",
+      "service_category": "tire_shop",
+      "lead_intent": "urgent_repair",
+      "tags": [
+        "tires",
+        "replace"
+      ],
+      "aliases": [
+        "new tires"
+      ]
+    },
+    {
+      "id": "vehicle_major_detailing",
+      "name": "Get major detailing",
+      "category": "vehicle",
+      "subcategory": "cleaning",
+      "default_tier": 3,
+      "effort": 3,
+      "friction": 2,
+      "frequency": "rare",
+      "proof_eligible": true,
+      "social_eligible": true,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "no",
+      "service_category": "auto_detailing",
+      "lead_intent": "purchase_intent",
+      "tags": [
+        "detail"
+      ],
+      "aliases": [
+        "car detailing"
+      ]
+    },
+    {
+      "id": "vehicle_dmv_visit",
+      "name": "Go to DMV",
+      "category": "vehicle",
+      "subcategory": "compliance",
+      "default_tier": 3,
+      "effort": 3,
+      "friction": 3,
+      "frequency": "as_needed",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "no",
+      "service_category": "dmv",
+      "lead_intent": "maintenance",
+      "tags": [
+        "dmv"
+      ],
+      "aliases": [
+        "motor vehicle visit"
+      ]
+    },
+    {
+      "id": "vehicle_major_service_appointment",
+      "name": "Coordinate major service appointment",
+      "category": "vehicle",
+      "subcategory": "repair",
+      "default_tier": 4,
+      "effort": 4,
+      "friction": 3,
+      "frequency": "as_needed",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "no",
+      "service_category": "auto_repair",
+      "lead_intent": "high_purchase_intent",
+      "tags": [
+        "major service"
+      ],
+      "aliases": [
+        "car repair appointment"
+      ]
+    },
+    {
+      "id": "vehicle_sell_vehicle",
+      "name": "Sell vehicle",
+      "category": "vehicle",
+      "subcategory": "transition",
+      "default_tier": 4,
+      "effort": 4,
+      "friction": 3,
+      "frequency": "rare",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "no",
+      "service_category": "auto_marketplace",
+      "lead_intent": "high_purchase_intent",
+      "tags": [
+        "sell car"
+      ],
+      "aliases": [
+        "list vehicle"
+      ]
+    },
+    {
+      "id": "vehicle_buy_vehicle",
+      "name": "Buy vehicle",
+      "category": "vehicle",
+      "subcategory": "transition",
+      "default_tier": 4,
+      "effort": 4,
+      "friction": 3,
+      "frequency": "rare",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "no",
+      "service_category": "auto_marketplace",
+      "lead_intent": "high_purchase_intent",
+      "tags": [
+        "buy car"
+      ],
+      "aliases": [
+        "new vehicle"
+      ]
+    },
+    {
+      "id": "vehicle_install_car_seat",
+      "name": "Install car seat system",
+      "category": "vehicle",
+      "subcategory": "family_setup",
+      "default_tier": 3,
+      "effort": 3,
+      "friction": 2,
+      "frequency": "as_needed",
+      "proof_eligible": true,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "mixed",
+      "service_category": "baby_products",
+      "lead_intent": "purchase_intent",
+      "tags": [
+        "car seat"
+      ],
+      "aliases": [
+        "set up car seat"
+      ]
+    },
+    {
+      "id": "vehicle_full_cleanout",
+      "name": "Fully clean out vehicle",
+      "category": "vehicle",
+      "subcategory": "organization",
+      "default_tier": 3,
+      "effort": 3,
+      "friction": 2,
+      "frequency": "quarterly",
+      "proof_eligible": true,
+      "social_eligible": true,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "car cleanout"
+      ],
+      "aliases": [
+        "empty car"
+      ]
+    },
+    {
+      "id": "errands_post_office_run",
+      "name": "Go to post office",
+      "category": "errands",
+      "subcategory": "errands",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "as_needed",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "post office"
+      ],
+      "aliases": [
+        "mail packages"
+      ]
+    },
+    {
+      "id": "errands_return_items",
+      "name": "Return purchased items",
+      "category": "errands",
+      "subcategory": "errands",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "weekly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "retail",
+      "lead_intent": "purchase_intent",
+      "tags": [
+        "returns"
+      ],
+      "aliases": [
+        "make return"
+      ]
+    },
+    {
+      "id": "errands_pickup_prescription",
+      "name": "Pick up prescription",
+      "category": "errands",
+      "subcategory": "health",
+      "default_tier": 2,
+      "effort": 1,
+      "friction": 2,
+      "frequency": "monthly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "pharmacy",
+      "lead_intent": "purchase_intent",
+      "tags": [
+        "prescription"
+      ],
+      "aliases": [
+        "grab prescription"
+      ]
+    },
+    {
+      "id": "errands_bulk_store_run",
+      "name": "Bulk store shopping run",
+      "category": "errands",
+      "subcategory": "shopping",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "monthly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "retail",
+      "lead_intent": "purchase_intent",
+      "tags": [
+        "costco",
+        "bulk"
+      ],
+      "aliases": [
+        "warehouse run"
+      ]
+    },
+    {
+      "id": "errands_hardware_store_run",
+      "name": "Hardware store run",
+      "category": "errands",
+      "subcategory": "shopping",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "as_needed",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "hardware",
+      "lead_intent": "purchase_intent",
+      "tags": [
+        "hardware"
+      ],
+      "aliases": [
+        "home depot run"
+      ]
+    },
+    {
+      "id": "errands_pickup_order",
+      "name": "Pick up curbside order",
+      "category": "errands",
+      "subcategory": "shopping",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "as_needed",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "retail",
+      "lead_intent": "purchase_intent",
+      "tags": [
+        "pickup"
+      ],
+      "aliases": [
+        "curbside pickup"
+      ]
+    },
+    {
+      "id": "admin_pay_bill",
+      "name": "Pay bill",
+      "category": "admin",
+      "subcategory": "finance",
+      "default_tier": 2,
+      "effort": 1,
+      "friction": 2,
+      "frequency": "monthly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "bill"
+      ],
+      "aliases": [
+        "pay utility"
+      ]
+    },
+    {
+      "id": "admin_review_bank_transactions",
+      "name": "Review bank or card transactions",
+      "category": "admin",
+      "subcategory": "finance",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "weekly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "bank",
+        "transactions"
+      ],
+      "aliases": [
+        "check statements"
+      ]
+    },
+    {
+      "id": "admin_update_budget",
+      "name": "Update household budget",
+      "category": "admin",
+      "subcategory": "finance",
+      "default_tier": 3,
+      "effort": 3,
+      "friction": 2,
+      "frequency": "monthly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "budget"
+      ],
+      "aliases": [
+        "review budget"
+      ]
+    },
+    {
+      "id": "admin_schedule_service",
+      "name": "Schedule home service appointment",
+      "category": "admin",
+      "subcategory": "planning",
+      "default_tier": 2,
+      "effort": 1,
+      "friction": 2,
+      "frequency": "as_needed",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "home_services",
+      "lead_intent": "purchase_intent",
+      "tags": [
+        "service",
+        "appointment"
+      ],
+      "aliases": [
+        "book service"
+      ]
+    },
+    {
+      "id": "admin_reorder_household_supplies",
+      "name": "Reorder household supplies",
+      "category": "admin",
+      "subcategory": "shopping",
+      "default_tier": 2,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "monthly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "retail",
+      "lead_intent": "subscription",
+      "tags": [
+        "supplies"
+      ],
+      "aliases": [
+        "buy household items"
+      ]
+    },
+    {
+      "id": "admin_update_calendar",
+      "name": "Update household calendar",
+      "category": "admin",
+      "subcategory": "planning",
+      "default_tier": 2,
+      "effort": 1,
+      "friction": 2,
+      "frequency": "weekly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "calendar"
+      ],
+      "aliases": [
+        "update schedule"
+      ]
+    },
+    {
+      "id": "admin_compare_insurance_options",
+      "name": "Compare insurance or payment options",
+      "category": "admin",
+      "subcategory": "finance",
+      "default_tier": 3,
+      "effort": 3,
+      "friction": 3,
+      "frequency": "rare",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "insurance",
+      "lead_intent": "high_purchase_intent",
+      "tags": [
+        "insurance"
+      ],
+      "aliases": [
+        "shop insurance"
+      ]
+    },
+    {
+      "id": "admin_resolve_billing_issue",
+      "name": "Resolve billing issue",
+      "category": "admin",
+      "subcategory": "finance",
+      "default_tier": 3,
+      "effort": 3,
+      "friction": 3,
+      "frequency": "as_needed",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "billing",
+        "dispute"
+      ],
+      "aliases": [
+        "fix charge issue"
+      ]
+    },
+    {
+      "id": "admin_handle_tax_documents",
+      "name": "Gather tax prep documents",
+      "category": "admin",
+      "subcategory": "finance",
+      "default_tier": 3,
+      "effort": 3,
+      "friction": 3,
+      "frequency": "annual",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "taxes"
+      ],
+      "aliases": [
+        "collect tax docs"
+      ]
+    },
+    {
+      "id": "admin_manage_subscriptions",
+      "name": "Review and manage subscriptions",
+      "category": "admin",
+      "subcategory": "finance",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "monthly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "digital_services",
+      "lead_intent": "purchase_intent",
+      "tags": [
+        "subscriptions"
+      ],
+      "aliases": [
+        "cancel subscriptions"
+      ]
+    },
+    {
+      "id": "admin_password_updates",
+      "name": "Update passwords or security settings",
+      "category": "admin",
+      "subcategory": "digital",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "quarterly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "passwords",
+        "security"
+      ],
+      "aliases": [
+        "change passwords"
+      ]
+    },
+    {
+      "id": "admin_clear_email_backlog",
+      "name": "Clear email backlog",
+      "category": "admin",
+      "subcategory": "digital",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "weekly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "email"
+      ],
+      "aliases": [
+        "clean inbox"
+      ]
+    },
+    {
+      "id": "admin_travel_logistics",
+      "name": "Plan travel logistics",
+      "category": "admin",
+      "subcategory": "planning",
+      "default_tier": 3,
+      "effort": 3,
+      "friction": 2,
+      "frequency": "as_needed",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "travel",
+      "lead_intent": "high_purchase_intent",
+      "tags": [
+        "travel"
+      ],
+      "aliases": [
+        "trip planning"
+      ]
+    },
+    {
+      "id": "admin_move_planning",
+      "name": "Plan a move",
+      "category": "admin",
+      "subcategory": "transition",
+      "default_tier": 4,
+      "effort": 4,
+      "friction": 3,
+      "frequency": "rare",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "moving",
+      "lead_intent": "high_purchase_intent",
+      "tags": [
+        "move"
+      ],
+      "aliases": [
+        "moving prep"
+      ]
+    },
+    {
+      "id": "admin_household_system_overhaul",
+      "name": "Overhaul household systems",
+      "category": "admin",
+      "subcategory": "planning",
+      "default_tier": 4,
+      "effort": 4,
+      "friction": 2,
+      "frequency": "rare",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "systems"
+      ],
+      "aliases": [
+        "organize household systems"
+      ]
+    },
+    {
+      "id": "hosting_pre_guest_clean",
+      "name": "Pre-guest cleaning",
+      "category": "hosting",
+      "subcategory": "guests",
+      "default_tier": 3,
+      "effort": 3,
+      "friction": 2,
+      "frequency": "as_needed",
+      "proof_eligible": true,
+      "social_eligible": true,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "cleaning",
+      "lead_intent": "purchase_intent",
+      "tags": [
+        "guests",
+        "hosting"
+      ],
+      "aliases": [
+        "clean before guests"
+      ]
+    },
+    {
+      "id": "hosting_prepare_guest_bed",
+      "name": "Prepare guest bed",
+      "category": "hosting",
+      "subcategory": "guests",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 1,
+      "frequency": "as_needed",
+      "proof_eligible": true,
+      "social_eligible": true,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "guest bed"
+      ],
+      "aliases": [
+        "set up guest room"
+      ]
+    },
+    {
+      "id": "hosting_stock_guest_bathroom",
+      "name": "Stock guest bathroom",
+      "category": "hosting",
+      "subcategory": "guests",
+      "default_tier": 2,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "as_needed",
+      "proof_eligible": false,
+      "social_eligible": true,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "retail",
+      "lead_intent": "purchase_intent",
+      "tags": [
+        "guest bathroom"
+      ],
+      "aliases": [
+        "prep guest bath"
+      ]
+    },
+    {
+      "id": "hosting_post_guest_reset",
+      "name": "Post-guest reset clean",
+      "category": "hosting",
+      "subcategory": "guests",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "as_needed",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "after guests"
+      ],
+      "aliases": [
+        "reset after company"
+      ]
+    },
+    {
+      "id": "holiday_buy_gifts",
+      "name": "Buy gifts",
+      "category": "hosting",
+      "subcategory": "holiday",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "seasonal",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "retail",
+      "lead_intent": "purchase_intent",
+      "tags": [
+        "gifts"
+      ],
+      "aliases": [
+        "gift shopping"
+      ]
+    },
+    {
+      "id": "holiday_wrap_gifts",
+      "name": "Wrap gifts",
+      "category": "hosting",
+      "subcategory": "holiday",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 1,
+      "frequency": "seasonal",
+      "proof_eligible": true,
+      "social_eligible": true,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "retail",
+      "lead_intent": "purchase_intent",
+      "tags": [
+        "wrap"
+      ],
+      "aliases": [
+        "gift wrap"
+      ]
+    },
+    {
+      "id": "holiday_event_cleanup",
+      "name": "Clean up after holiday or party",
+      "category": "hosting",
+      "subcategory": "holiday",
+      "default_tier": 3,
+      "effort": 3,
+      "friction": 2,
+      "frequency": "seasonal",
+      "proof_eligible": true,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "cleaning",
+      "lead_intent": "maintenance",
+      "tags": [
+        "holiday",
+        "cleanup"
+      ],
+      "aliases": [
+        "party cleanup"
+      ]
+    },
+    {
+      "id": "shopping_buy_home_decor",
+      "name": "Buy home decor",
+      "category": "shopping",
+      "subcategory": "home_goods",
+      "default_tier": 2,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "as_needed",
+      "proof_eligible": false,
+      "social_eligible": true,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "home_goods",
+      "lead_intent": "purchase_intent",
+      "tags": [
+        "decor"
+      ],
+      "aliases": [
+        "shop decor"
+      ]
+    },
+    {
+      "id": "shopping_buy_paint_supplies",
+      "name": "Buy paint supplies",
+      "category": "shopping",
+      "subcategory": "home_improvement",
+      "default_tier": 2,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "as_needed",
+      "proof_eligible": false,
+      "social_eligible": true,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "hardware",
+      "lead_intent": "purchase_intent",
+      "tags": [
+        "paint",
+        "supplies"
+      ],
+      "aliases": [
+        "get paint stuff"
+      ]
+    },
+    {
+      "id": "shopping_buy_cleaning_supplies",
+      "name": "Buy cleaning supplies",
+      "category": "shopping",
+      "subcategory": "household",
+      "default_tier": 2,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "monthly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "retail",
+      "lead_intent": "subscription",
+      "tags": [
+        "cleaning supplies"
+      ],
+      "aliases": [
+        "restock cleaning"
+      ]
+    },
+    {
+      "id": "shopping_buy_pet_supplies",
+      "name": "Buy pet supplies",
+      "category": "shopping",
+      "subcategory": "pet",
+      "default_tier": 2,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "monthly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "pet_supplies",
+      "lead_intent": "purchase_intent",
+      "tags": [
+        "pet supplies"
+      ],
+      "aliases": [
+        "restock pet items"
+      ]
+    },
+    {
+      "id": "shopping_buy_school_supplies",
+      "name": "Buy school supplies",
+      "category": "shopping",
+      "subcategory": "kid",
+      "default_tier": 2,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "seasonal",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "retail",
+      "lead_intent": "purchase_intent",
+      "tags": [
+        "school supplies"
+      ],
+      "aliases": [
+        "school shopping"
+      ]
+    },
+    {
+      "id": "safety_restock_first_aid",
+      "name": "Restock first aid kit",
+      "category": "safety",
+      "subcategory": "supplies",
+      "default_tier": 2,
+      "effort": 1,
+      "friction": 2,
+      "frequency": "quarterly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "pharmacy",
+      "lead_intent": "purchase_intent",
+      "tags": [
+        "first aid"
+      ],
+      "aliases": [
+        "check first aid kit"
+      ]
+    },
+    {
+      "id": "safety_check_flashlights",
+      "name": "Check flashlights and batteries",
+      "category": "safety",
+      "subcategory": "supplies",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "quarterly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "flashlights",
+        "batteries"
+      ],
+      "aliases": [
+        "test flashlight"
+      ]
+    },
+    {
+      "id": "safety_create_emergency_kit",
+      "name": "Create or refresh emergency kit",
+      "category": "safety",
+      "subcategory": "preparedness",
+      "default_tier": 3,
+      "effort": 3,
+      "friction": 2,
+      "frequency": "annual",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "retail",
+      "lead_intent": "purchase_intent",
+      "tags": [
+        "emergency kit"
+      ],
+      "aliases": [
+        "prep emergency supplies"
+      ]
+    },
+    {
+      "id": "home_clean_doorknobs_switches",
+      "name": "Disinfect doorknobs and switches",
+      "category": "home",
+      "subcategory": "light_cleaning",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "weekly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "doorknobs",
+        "switches"
+      ],
+      "aliases": [
+        "wipe touchpoints"
+      ]
+    },
+    {
+      "id": "home_water_indoor_plants",
+      "name": "Water indoor plants",
+      "category": "home",
+      "subcategory": "plant_care",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "weekly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "plants",
+        "indoor"
+      ],
+      "aliases": [
+        "water houseplants"
+      ]
+    },
+    {
+      "id": "home_rotate_mattress",
+      "name": "Rotate mattress",
+      "category": "home",
+      "subcategory": "maintenance",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "quarterly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "mattress"
+      ],
+      "aliases": [
+        "flip mattress"
+      ]
+    },
+    {
+      "id": "home_clean_under_bed",
+      "name": "Clean under bed",
+      "category": "home",
+      "subcategory": "deep_cleaning",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "monthly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "under bed"
+      ],
+      "aliases": [
+        "vacuum under bed"
+      ]
+    },
+    {
+      "id": "home_organize_closet",
+      "name": "Organize closet",
+      "category": "home",
+      "subcategory": "organization",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "monthly",
+      "proof_eligible": true,
+      "social_eligible": true,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "organizer",
+      "lead_intent": "home_improvement",
+      "tags": [
+        "closet"
+      ],
+      "aliases": [
+        "closet reset"
+      ]
+    },
+    {
+      "id": "home_declutter_entryway",
+      "name": "Declutter entryway",
+      "category": "home",
+      "subcategory": "organization",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 1,
+      "frequency": "weekly",
+      "proof_eligible": true,
+      "social_eligible": true,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "entryway"
+      ],
+      "aliases": [
+        "organize foyer"
+      ]
+    },
+    {
+      "id": "home_rearrange_furniture",
+      "name": "Rearrange furniture",
+      "category": "home",
+      "subcategory": "organization",
+      "default_tier": 3,
+      "effort": 3,
+      "friction": 2,
+      "frequency": "rare",
+      "proof_eligible": true,
+      "social_eligible": true,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "furniture"
+      ],
+      "aliases": [
+        "move furniture"
+      ]
+    },
+    {
+      "id": "home_minor_appliance_setup",
+      "name": "Set up minor appliance",
+      "category": "home",
+      "subcategory": "improvement",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 1,
+      "frequency": "as_needed",
+      "proof_eligible": true,
+      "social_eligible": true,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "home_goods",
+      "lead_intent": "purchase_intent",
+      "tags": [
+        "appliance"
+      ],
+      "aliases": [
+        "install appliance"
+      ]
+    },
+    {
+      "id": "home_replace_shower_head",
+      "name": "Replace shower head",
+      "category": "home",
+      "subcategory": "repair",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "as_needed",
+      "proof_eligible": true,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "mixed",
+      "service_category": "plumbing",
+      "lead_intent": "maintenance",
+      "tags": [
+        "shower head"
+      ],
+      "aliases": [
+        "install shower head"
+      ]
+    },
+    {
+      "id": "home_fix_door_hinge",
+      "name": "Fix door hinge",
+      "category": "home",
+      "subcategory": "repair",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "as_needed",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "mixed",
+      "service_category": "handyman",
+      "lead_intent": "maintenance",
+      "tags": [
+        "door hinge"
+      ],
+      "aliases": [
+        "repair door"
+      ]
+    },
+    {
+      "id": "home_reseal_windows",
+      "name": "Re-seal windows",
+      "category": "home",
+      "subcategory": "repair",
+      "default_tier": 3,
+      "effort": 3,
+      "friction": 3,
+      "frequency": "seasonal",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "mixed",
+      "service_category": "handyman",
+      "lead_intent": "preventive_maintenance",
+      "tags": [
+        "windows",
+        "seal"
+      ],
+      "aliases": [
+        "weatherstrip windows"
+      ]
+    },
+    {
+      "id": "home_clean_fireplace_area",
+      "name": "Clean fireplace area",
+      "category": "home",
+      "subcategory": "seasonal",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "seasonal",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "cleaning",
+      "lead_intent": "maintenance",
+      "tags": [
+        "fireplace"
+      ],
+      "aliases": [
+        "clean hearth"
+      ]
+    },
+    {
+      "id": "home_set_up_air_conditioner",
+      "name": "Set up window AC or seasonal AC prep",
+      "category": "home",
+      "subcategory": "seasonal",
+      "default_tier": 3,
+      "effort": 3,
+      "friction": 2,
+      "frequency": "seasonal",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "mixed",
+      "service_category": "hvac",
+      "lead_intent": "maintenance",
+      "tags": [
+        "ac",
+        "summer"
+      ],
+      "aliases": [
+        "install window ac"
+      ]
+    },
+    {
+      "id": "home_store_seasonal_items",
+      "name": "Store seasonal items",
+      "category": "home",
+      "subcategory": "organization",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "seasonal",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "seasonal storage"
+      ],
+      "aliases": [
+        "put holiday stuff away"
+      ]
+    },
+    {
+      "id": "kitchen_polish_stainless",
+      "name": "Polish stainless steel appliances",
+      "category": "kitchen",
+      "subcategory": "routine_cleaning",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 1,
+      "frequency": "monthly",
+      "proof_eligible": true,
+      "social_eligible": true,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "cleaning",
+      "lead_intent": "purchase_intent",
+      "tags": [
+        "stainless"
+      ],
+      "aliases": [
+        "polish appliances"
+      ]
+    },
+    {
+      "id": "kitchen_defrost_freezer",
+      "name": "Defrost freezer",
+      "category": "kitchen",
+      "subcategory": "maintenance",
+      "default_tier": 3,
+      "effort": 3,
+      "friction": 3,
+      "frequency": "rare",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "freezer"
+      ],
+      "aliases": [
+        "defrost freezer"
+      ]
+    },
+    {
+      "id": "kitchen_clean_toaster",
+      "name": "Clean toaster or crumb tray",
+      "category": "kitchen",
+      "subcategory": "light_cleaning",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "monthly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "toaster"
+      ],
+      "aliases": [
+        "empty crumb tray"
+      ]
+    },
+    {
+      "id": "kitchen_clean_coffee_machine",
+      "name": "Clean coffee machine",
+      "category": "kitchen",
+      "subcategory": "maintenance",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "monthly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "coffee_supplies",
+      "lead_intent": "purchase_intent",
+      "tags": [
+        "coffee machine"
+      ],
+      "aliases": [
+        "descale coffee maker"
+      ]
+    },
+    {
+      "id": "kitchen_sanitize_cutting_boards",
+      "name": "Sanitize cutting boards",
+      "category": "kitchen",
+      "subcategory": "routine_cleaning",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "weekly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "cutting boards"
+      ],
+      "aliases": [
+        "clean boards"
+      ]
+    },
+    {
+      "id": "kitchen_restock_snacks",
+      "name": "Restock snacks",
+      "category": "kitchen",
+      "subcategory": "shopping",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "weekly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "grocery",
+      "lead_intent": "purchase_intent",
+      "tags": [
+        "snacks"
+      ],
+      "aliases": [
+        "buy snacks"
+      ]
+    },
+    {
+      "id": "laundry_hand_wash_special_items",
+      "name": "Hand wash special-care items",
+      "category": "laundry",
+      "subcategory": "special_care",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "as_needed",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "hand wash"
+      ],
+      "aliases": [
+        "wash delicates"
+      ]
+    },
+    {
+      "id": "laundry_store_seasonal_clothes",
+      "name": "Store seasonal clothes",
+      "category": "laundry",
+      "subcategory": "organization",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "seasonal",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "seasonal clothes"
+      ],
+      "aliases": [
+        "swap wardrobe"
+      ]
+    },
+    {
+      "id": "laundry_buy_detergent",
+      "name": "Buy laundry detergent",
+      "category": "laundry",
+      "subcategory": "shopping",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "monthly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "retail",
+      "lead_intent": "purchase_intent",
+      "tags": [
+        "detergent"
+      ],
+      "aliases": [
+        "restock detergent"
+      ]
+    },
+    {
+      "id": "cleaning_clean_light_fixtures",
+      "name": "Clean light fixtures",
+      "category": "cleaning",
+      "subcategory": "deep_cleaning",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "quarterly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "fixtures"
+      ],
+      "aliases": [
+        "dust light fixtures"
+      ]
+    },
+    {
+      "id": "cleaning_wash_walls_spots",
+      "name": "Wash wall spots and marks",
+      "category": "cleaning",
+      "subcategory": "deep_cleaning",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "monthly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "walls"
+      ],
+      "aliases": [
+        "clean wall marks"
+      ]
+    },
+    {
+      "id": "cleaning_clean_doormats",
+      "name": "Clean doormats",
+      "category": "cleaning",
+      "subcategory": "routine_cleaning",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "monthly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "doormat"
+      ],
+      "aliases": [
+        "shake mats"
+      ]
+    },
+    {
+      "id": "cleaning_sanitize_high_touch",
+      "name": "Sanitize high-touch surfaces",
+      "category": "cleaning",
+      "subcategory": "routine_cleaning",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "weekly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "sanitize"
+      ],
+      "aliases": [
+        "disinfect surfaces"
+      ]
+    },
+    {
+      "id": "exterior_hose_down_driveway",
+      "name": "Hose down driveway",
+      "category": "exterior",
+      "subcategory": "yard_cleanup",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 1,
+      "frequency": "monthly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "driveway"
+      ],
+      "aliases": [
+        "rinse driveway"
+      ]
+    },
+    {
+      "id": "exterior_sweep_driveway",
+      "name": "Sweep driveway",
+      "category": "exterior",
+      "subcategory": "yard_cleanup",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 1,
+      "frequency": "monthly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "driveway"
+      ],
+      "aliases": [
+        "clean driveway"
+      ]
+    },
+    {
+      "id": "exterior_clean_mailbox",
+      "name": "Clean mailbox area",
+      "category": "exterior",
+      "subcategory": "yard_cleanup",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "monthly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "mailbox"
+      ],
+      "aliases": [
+        "wipe mailbox"
+      ]
+    },
+    {
+      "id": "exterior_clear_drains",
+      "name": "Clear outdoor drains",
+      "category": "exterior",
+      "subcategory": "maintenance",
+      "default_tier": 3,
+      "effort": 3,
+      "friction": 3,
+      "frequency": "seasonal",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "mixed",
+      "service_category": "yard_service",
+      "lead_intent": "preventive_maintenance",
+      "tags": [
+        "drains"
+      ],
+      "aliases": [
+        "clear storm drains"
+      ]
+    },
+    {
+      "id": "exterior_repair_screen",
+      "name": "Repair window or door screen",
+      "category": "exterior",
+      "subcategory": "repair",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "as_needed",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "mixed",
+      "service_category": "handyman",
+      "lead_intent": "maintenance",
+      "tags": [
+        "screen"
+      ],
+      "aliases": [
+        "fix screen"
+      ]
+    },
+    {
+      "id": "exterior_power_wash_house",
+      "name": "Power wash siding",
+      "category": "exterior",
+      "subcategory": "deep_cleaning",
+      "default_tier": 4,
+      "effort": 4,
+      "friction": 3,
+      "frequency": "rare",
+      "proof_eligible": true,
+      "social_eligible": true,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "mixed",
+      "service_category": "pressure_washing",
+      "lead_intent": "home_improvement",
+      "tags": [
+        "siding"
+      ],
+      "aliases": [
+        "power wash house"
+      ]
+    },
+    {
+      "id": "pet_long_dog_walk",
+      "name": "Long dog walk",
+      "category": "pet",
+      "subcategory": "exercise",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 1,
+      "frequency": "daily",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "dog walk",
+        "long"
+      ],
+      "aliases": [
+        "extended dog walk"
+      ]
+    },
+    {
+      "id": "pet_trim_nails",
+      "name": "Trim pet nails",
+      "category": "pet",
+      "subcategory": "grooming",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 3,
+      "frequency": "monthly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "mixed",
+      "service_category": "pet_grooming",
+      "lead_intent": "purchase_intent",
+      "tags": [
+        "nails"
+      ],
+      "aliases": [
+        "clip dog nails"
+      ]
+    },
+    {
+      "id": "pet_clean_food_bowls",
+      "name": "Clean pet food bowls",
+      "category": "pet",
+      "subcategory": "hygiene",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "weekly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "bowls"
+      ],
+      "aliases": [
+        "wash pet bowls"
+      ]
+    },
+    {
+      "id": "pet_replace_filter_media",
+      "name": "Replace fish tank filter media",
+      "category": "pet",
+      "subcategory": "habitat",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "monthly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "pet_supplies",
+      "lead_intent": "subscription",
+      "tags": [
+        "filter"
+      ],
+      "aliases": [
+        "replace aquarium filter"
+      ]
+    },
+    {
+      "id": "pet_buy_toys_treats",
+      "name": "Buy toys or treats",
+      "category": "pet",
+      "subcategory": "shopping",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "monthly",
+      "proof_eligible": false,
+      "social_eligible": true,
+      "advice_eligible": false,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "pet_supplies",
+      "lead_intent": "purchase_intent",
+      "tags": [
+        "toys",
+        "treats"
+      ],
+      "aliases": [
+        "get dog treats"
+      ]
+    },
+    {
+      "id": "kid_sign_school_forms",
+      "name": "Sign school forms",
+      "category": "kid",
+      "subcategory": "parent_assigned",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "weekly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "school forms"
+      ],
+      "aliases": [
+        "sign permission slip"
+      ]
+    },
+    {
+      "id": "kid_check_backpack",
+      "name": "Check and clean backpack",
+      "category": "kid",
+      "subcategory": "parent_assigned",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "weekly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "backpack"
+      ],
+      "aliases": [
+        "empty backpack"
+      ]
+    },
+    {
+      "id": "kid_prepare_activity_bag",
+      "name": "Prepare sports or activity bag",
+      "category": "kid",
+      "subcategory": "parent_assigned",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "weekly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "sports"
+      ],
+      "aliases": [
+        "pack sports bag"
+      ]
+    },
+    {
+      "id": "kid_reading_time",
+      "name": "Do reading time",
+      "category": "kid",
+      "subcategory": "parent_assigned",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "daily",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "reading"
+      ],
+      "aliases": [
+        "read with child"
+      ]
+    },
+    {
+      "id": "kid_chore_chart_update",
+      "name": "Update kid chore chart",
+      "category": "kid",
+      "subcategory": "parent_assigned",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "weekly",
+      "proof_eligible": false,
+      "social_eligible": true,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "chores"
+      ],
+      "aliases": [
+        "refresh chore chart"
+      ]
+    },
+    {
+      "id": "kid_buy_school_supplies",
+      "name": "Buy school supplies",
+      "category": "kid",
+      "subcategory": "parent_assigned",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 1,
+      "frequency": "seasonal",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "retail",
+      "lead_intent": "purchase_intent",
+      "tags": [
+        "school supplies"
+      ],
+      "aliases": [
+        "back to school shopping"
+      ]
+    },
+    {
+      "id": "vehicle_schedule_car_wash",
+      "name": "Schedule or plan car wash",
+      "category": "vehicle",
+      "subcategory": "cleaning",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "monthly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "car_wash",
+      "lead_intent": "purchase_intent",
+      "tags": [
+        "car wash"
+      ],
+      "aliases": [
+        "book car wash"
+      ]
+    },
+    {
+      "id": "vehicle_check_registration_deadline",
+      "name": "Check registration deadline",
+      "category": "vehicle",
+      "subcategory": "compliance",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "quarterly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "registration"
+      ],
+      "aliases": [
+        "registration reminder"
+      ]
+    },
+    {
+      "id": "vehicle_replace_wipers",
+      "name": "Replace windshield wipers",
+      "category": "vehicle",
+      "subcategory": "maintenance",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "seasonal",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "auto_parts",
+      "lead_intent": "maintenance",
+      "tags": [
+        "wipers"
+      ],
+      "aliases": [
+        "new wipers"
+      ]
+    },
+    {
+      "id": "vehicle_jump_start_or_charge_battery",
+      "name": "Jump start or charge battery",
+      "category": "vehicle",
+      "subcategory": "repair",
+      "default_tier": 3,
+      "effort": 3,
+      "friction": 3,
+      "frequency": "as_needed",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "mixed",
+      "service_category": "auto_service",
+      "lead_intent": "urgent_repair",
+      "tags": [
+        "battery"
+      ],
+      "aliases": [
+        "jump battery"
+      ]
+    },
+    {
+      "id": "vehicle_clean_floor_mats",
+      "name": "Clean vehicle floor mats",
+      "category": "vehicle",
+      "subcategory": "cleaning",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 1,
+      "frequency": "monthly",
+      "proof_eligible": true,
+      "social_eligible": true,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "mats"
+      ],
+      "aliases": [
+        "wash car mats"
+      ]
+    },
+    {
+      "id": "errands_grocery_pickup",
+      "name": "Pick up grocery order",
+      "category": "errands",
+      "subcategory": "shopping",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "weekly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "grocery",
+      "lead_intent": "purchase_intent",
+      "tags": [
+        "grocery pickup"
+      ],
+      "aliases": [
+        "pick up groceries"
+      ]
+    },
+    {
+      "id": "errands_donation_dropoff",
+      "name": "Drop off donations",
+      "category": "errands",
+      "subcategory": "errands",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 1,
+      "frequency": "monthly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "donation"
+      ],
+      "aliases": [
+        "take donations"
+      ]
+    },
+    {
+      "id": "errands_bank_run",
+      "name": "Go to the bank",
+      "category": "errands",
+      "subcategory": "finance",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "as_needed",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "bank"
+      ],
+      "aliases": [
+        "bank errand"
+      ]
+    },
+    {
+      "id": "admin_plan_weekly_schedule",
+      "name": "Plan weekly household schedule",
+      "category": "admin",
+      "subcategory": "planning",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "weekly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "weekly planning"
+      ],
+      "aliases": [
+        "plan week"
+      ]
+    },
+    {
+      "id": "admin_check_supply_levels",
+      "name": "Check household supply levels",
+      "category": "admin",
+      "subcategory": "planning",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "weekly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "supplies"
+      ],
+      "aliases": [
+        "inventory check"
+      ]
+    },
+    {
+      "id": "admin_create_shopping_list",
+      "name": "Create shopping list",
+      "category": "admin",
+      "subcategory": "planning",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "weekly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": false,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "retail",
+      "lead_intent": "purchase_intent",
+      "tags": [
+        "shopping list"
+      ],
+      "aliases": [
+        "list groceries"
+      ]
+    },
+    {
+      "id": "admin_book_handyman",
+      "name": "Book handyman",
+      "category": "admin",
+      "subcategory": "planning",
+      "default_tier": 2,
+      "effort": 1,
+      "friction": 2,
+      "frequency": "as_needed",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "handyman",
+      "lead_intent": "high_purchase_intent",
+      "tags": [
+        "handyman"
+      ],
+      "aliases": [
+        "schedule handyman"
+      ]
+    },
+    {
+      "id": "admin_book_cleaner",
+      "name": "Book cleaner",
+      "category": "admin",
+      "subcategory": "planning",
+      "default_tier": 2,
+      "effort": 1,
+      "friction": 2,
+      "frequency": "as_needed",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "cleaning",
+      "lead_intent": "high_purchase_intent",
+      "tags": [
+        "cleaner"
+      ],
+      "aliases": [
+        "schedule house cleaner"
+      ]
+    },
+    {
+      "id": "admin_update_pet_records",
+      "name": "Update pet records or reminders",
+      "category": "admin",
+      "subcategory": "planning",
+      "default_tier": 2,
+      "effort": 1,
+      "friction": 2,
+      "frequency": "quarterly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "pet records"
+      ],
+      "aliases": [
+        "track vaccines"
+      ]
+    },
+    {
+      "id": "admin_create_holiday_budget",
+      "name": "Create holiday budget",
+      "category": "admin",
+      "subcategory": "finance",
+      "default_tier": 3,
+      "effort": 3,
+      "friction": 2,
+      "frequency": "seasonal",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "holiday budget"
+      ],
+      "aliases": [
+        "gift budget"
+      ]
+    },
+    {
+      "id": "hosting_plan_guest_visit",
+      "name": "Plan guest visit logistics",
+      "category": "hosting",
+      "subcategory": "guests",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "as_needed",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "guest planning"
+      ],
+      "aliases": [
+        "plan visit"
+      ]
+    },
+    {
+      "id": "holiday_send_cards",
+      "name": "Send holiday cards",
+      "category": "hosting",
+      "subcategory": "holiday",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 1,
+      "frequency": "seasonal",
+      "proof_eligible": false,
+      "social_eligible": true,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "retail",
+      "lead_intent": "purchase_intent",
+      "tags": [
+        "cards"
+      ],
+      "aliases": [
+        "mail holiday cards"
+      ]
+    },
+    {
+      "id": "shopping_buy_storage_bins",
+      "name": "Buy storage bins",
+      "category": "shopping",
+      "subcategory": "home_goods",
+      "default_tier": 2,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "as_needed",
+      "proof_eligible": false,
+      "social_eligible": true,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "home_goods",
+      "lead_intent": "purchase_intent",
+      "tags": [
+        "storage bins"
+      ],
+      "aliases": [
+        "get bins"
+      ]
+    },
+    {
+      "id": "shopping_buy_tools",
+      "name": "Buy tools",
+      "category": "shopping",
+      "subcategory": "home_improvement",
+      "default_tier": 2,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "as_needed",
+      "proof_eligible": false,
+      "social_eligible": true,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "hardware",
+      "lead_intent": "purchase_intent",
+      "tags": [
+        "tools"
+      ],
+      "aliases": [
+        "tool shopping"
+      ]
+    },
+    {
+      "id": "shopping_buy_baby_items",
+      "name": "Buy baby or kid items",
+      "category": "shopping",
+      "subcategory": "kid",
+      "default_tier": 2,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "as_needed",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "retail",
+      "lead_intent": "purchase_intent",
+      "tags": [
+        "baby"
+      ],
+      "aliases": [
+        "buy kid stuff"
+      ]
+    },
+    {
+      "id": "safety_replace_fire_extinguisher",
+      "name": "Replace fire extinguisher",
+      "category": "safety",
+      "subcategory": "preparedness",
+      "default_tier": 2,
+      "effort": 2,
+      "friction": 2,
+      "frequency": "rare",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": true,
+      "diy_default": "yes",
+      "service_category": "retail",
+      "lead_intent": "purchase_intent",
+      "tags": [
+        "fire extinguisher"
+      ],
+      "aliases": [
+        "new extinguisher"
+      ]
+    },
+    {
+      "id": "safety_review_emergency_contacts",
+      "name": "Review emergency contacts",
+      "category": "safety",
+      "subcategory": "preparedness",
+      "default_tier": 1,
+      "effort": 1,
+      "friction": 1,
+      "frequency": "quarterly",
+      "proof_eligible": false,
+      "social_eligible": false,
+      "advice_eligible": true,
+      "business_lead_eligible": false,
+      "diy_default": "yes",
+      "service_category": null,
+      "lead_intent": null,
+      "tags": [
+        "contacts"
+      ],
+      "aliases": [
+        "update emergency contacts"
+      ]
+    }
+  ]
+}
